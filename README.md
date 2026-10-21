@@ -1,8 +1,8 @@
 # 🌿 Grameen Business Solution
 
-> **An end-to-end digital commerce, ERP, inventory, and retail terminal suite designed for local businesses and rural merchants in Bangladesh.**
+> **An end-to-end digital commerce, ERP, inventory, and retail terminal suite designed for local businesses and merchants in Bangladesh.**
 
-Grameen Business Solution brings together a robust backend API, a modern bilingual web dashboard for inventory and business management, a dedicated offline-capable desktop Point of Sale (POS) application, and custom operating system deployment scripts into a unified monorepo.
+Grameen Business Solution brings together a robust backend API, a modern bilingual web dashboard for inventory and business management, and a dedicated offline-capable desktop Point of Sale (POS) application into a unified repository.
 
 ---
 
@@ -13,17 +13,17 @@ Grameen Business Solution brings together a robust backend API, a modern bilingu
                                │           Grameen Business Suite             │
                                └──────────────────────┬───────────────────────┘
                                                       │
-         ┌──────────────────────────────┬─────────────┴────────────────┬──────────────────────────────┐
-         ▼                              ▼                              ▼                              ▼
-┌──────────────────┐          ┌───────────────────┐          ┌───────────────────┐          ┌───────────────────┐
-│ business-backend │          │ business-frontend │          │   business-pos    │          │     grameenOS     │
-├──────────────────┤          ├───────────────────┤          ├───────────────────┤          ├───────────────────┤
-│ • Node.js / Exp. │          │ • React 18 / CRA  │          │ • .NET 8 / WPF    │          │ • Zorin OS Base   │
-│ • PostgreSQL 16  │◄─────────┤ • Material UI 5   │          │ • SQLite Cache    │          │ • Turnkey Scripts │
-│ • Docker Compose │          │ • Recharts / Maps │          │ • ESC/POS Printer │          │ • Auto-kiosk Prep │
-│ • SSLCommerz /   │          │ • Bilingual (BN/EN│          │ • Barcode Wedge   │          │ • Hardware Driver │
-│   Auth Gateway   │          │ • Multi-role ERP  │          │ • Offline-First   │          │   Configurations  │
-└──────────────────┘          └───────────────────┘          └───────────────────┘          └───────────────────┘
+                       ┌──────────────────────────────┼──────────────────────────────┐
+                       ▼                              ▼                              ▼
+             ┌──────────────────┐          ┌───────────────────┐          ┌───────────────────┐
+             │ business-backend │          │ business-frontend │          │   business-pos    │
+             ├──────────────────┤          ├───────────────────┤          ├───────────────────┤
+             │ • Node.js / Exp. │          │ • React 18 / CRA  │          │ • .NET 8 / WPF    │
+             │ • PostgreSQL 16  │◄─────────┤ • Material UI 5   │          │ • SQLite Cache    │
+             │ • Docker Compose │          │ • Recharts / Maps │          │ • ESC/POS Printer │
+             │ • SSLCommerz /   │          │ • Bilingual(BN/EN)│          │ • Barcode Wedge   │
+             │   Auth Gateway   │          │ • Multi-role ERP  │          │ • Offline-First   │
+             └──────────────────┘          └───────────────────┘          └───────────────────┘
 ```
 
 ---
@@ -35,7 +35,6 @@ Grameen Business Solution brings together a robust backend API, a modern bilingu
 | [`business-backend`](./business-backend) | **Node.js, Express, PostgreSQL, Docker** | Core REST API, authentication, product catalog, sales tracking, database migrations, and payment gateways. |
 | [`business-frontend`](./business-frontend) | **React 18, Material UI, Recharts, Leaflet** | Web portal for inventory management, ERP operations, order tracking, analytics, and bilingual (Bangla/English) store admin. |
 | [`business-pos`](./business-pos) | **C# / .NET 8, WPF, SQLite, EF Core** | Fast Windows desktop POS terminal with offline-first synchronization, thermal receipt printing, and barcode scanner integration. |
-| [`grameenOS`](./grameenOS) | **Bash, Live-Build, Zorin OS Base** | Automated customization scripts to build a lightweight, branded Linux operating system tailored for rural retail hardware. |
 
 ---
 
@@ -67,9 +66,6 @@ grameen-bussiness-solution/
 │   ├── Views/                      # Touch-friendly XAML user interface
 │   ├── GrameenPOS.csproj           # C# project definition
 │   └── grameen-pos.sln             # Visual Studio solution file
-├── grameenOS/                       # Custom Linux OS Deployment Scripts
-│   ├── plan.md                     # OS rebranding and live-build guidelines
-│   └── plan.sh                     # Bash script for remastering Zorin OS ISO
 ├── .gitignore                       # Global Git ignore rules for the monorepo
 └── README.md                        # Project root documentation (this file)
 ```
@@ -150,17 +146,6 @@ Ensure you have the following installed on your development machine:
    dotnet run
    ```
 4. To create a standalone installer or single-file executable, refer to `business-pos/HOW_TO_RUN.md` and `create-installer.ps1`.
-
----
-
-### 4. Exploring `grameenOS`
-
-1. Navigate to the `grameenOS` directory:
-   ```bash
-   cd grameenOS
-   ```
-2. Inspect `plan.md` for prerequisites (Ubuntu/Zorin host, `live-build`, `squashfs-tools`, `xorriso`).
-3. Customize build configurations inside `plan.sh` to produce a customized bootable ISO for rural store machines.
 
 ---
 
