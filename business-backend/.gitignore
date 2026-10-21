@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+.next/
+out/
+
+# Logs
+logs/
+*.log
+
+#Bash scripts
+*.ps1
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.cursor/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Staging deploy artifacts (deploy-staging.ps1)
+*.tar
+*-staging.zip
+dokan-api/
+auth-server/
+
+# Docker
+.docker/
+
+# Database dumps and backups
+*.dump
+*.sql.gz
+*.backup
+
+# MD files
+STAGING_DEPLOYMENT.md
+POSTMAN_SETUP.md
+QUICK_START.md
+
+
+#custom documents
+/plan
+
+# Project scripts (start.bat, start.sh) are tracked — do not ignore
+

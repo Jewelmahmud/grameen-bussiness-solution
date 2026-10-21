@@ -1,0 +1,321 @@
+{
+  "Norshingdi": [
+    "Belab",
+    "Monorhordi",
+    "Palash",
+    "Raipura",
+    "Sadar",
+    "Shibpur"
+  ],
+  "Narayangonj": [
+    "Arai hazar",
+    "Bandor",
+    "Rupgonj",
+    "Sadar",
+    "Sonargaon"
+  ],
+  "Munshigonj": [
+    "Gazaria",
+    "Louhagonj",
+    "Sadar",
+    "Sirajdi khan",
+    "Sree nagar",
+    "Tungibari"
+  ],
+  "Gazipur": [
+    "Kaliakoir",
+    "Kaligonj",
+    "Kapashia",
+    "Sadar",
+    "Sreepur",
+    "Tongi"
+  ],
+  "Manikgonj": [
+    "Daulatpur",
+    "Gheor",
+    "Horirampur",
+    "Sadar",
+    "Saturia",
+    "Shibaloy",
+    "Singair"
+  ],
+  "Dhaka": [
+    "Cantonment",
+    "Demra",
+    "Dhamrai",
+    "Dhanmondi",
+    "Dohar",
+    "Gulshan",
+    "Keranigonj",
+    "Kotwali",
+    "Lalbagh",
+    "Mirpur",
+    "Mohammadpur",
+    "Motijgil",
+    "Nawabgonj",
+    "Pallabi",
+    "Ramna",
+    "Sabujbagh",
+    "Savar",
+    "Sutrapur",
+    "Tejgaon",
+    "Uttara"
+  ],
+  "Faridpur": [
+    "Alphadanga",
+    "Bhanga",
+    "Boalmari",
+    "Char bhadrashon",
+    "Madhukhali",
+    "Nagarkanda",
+    "Sadar",
+    "Sadarpur",
+    "Salthanaa"
+  ],
+  "Rajbari": [
+    "Baliakandi",
+    "Goalondo",
+    "Kalukhali",
+    "Pangsha",
+    "Sadar"
+  ],
+  "Gopalgonj": [
+    "Kashiani",
+    "Kotalipara",
+    "Muksudpur",
+    "Sadar",
+    "Tongipara"
+  ],
+  "Madaripur": [
+    "Kalkini",
+    "Rajoir",
+    "Sadar",
+    "Shibchar"
+  ],
+  "Sariyatpur": [
+    "Damudda",
+    "Goshair hat",
+    "Jagira",
+    "Noria",
+    "Sadar",
+    "Vedorgonj"
+  ],
+  "Borguna": [
+    "Amtoli",
+    "Bamna",
+    "Betagi",
+    "Pathanaorghata",
+    "Sadar",
+    "Taltoli"
+  ],
+  "Bhola": [
+    "Borhanuddin",
+    "Charfassion",
+    "Daulatkhan",
+    "Lalmohon",
+    "Monpura",
+    "Sadar",
+    "Tajumuddin"
+  ],
+  "JhalokaThanai": [
+    "Kathanaalia",
+    "Nalchiti",
+    "Rajapur",
+    "Sadar"
+  ],
+  "Barishal": [
+    "Agoil jhora",
+    "Babugonj",
+    "Bakergonj",
+    "Banaripara",
+    "Gournadi",
+    "Hijla",
+    "Mehedigonj",
+    "Muladi",
+    "Sadar",
+    "Ujirpur"
+  ],
+  "Patuakhali": [
+    "Bauphal",
+    "Dosmina",
+    "Dumki",
+    "Golachipa",
+    "Kolapara",
+    "Mirjagonj",
+    "Rangabali",
+    "Sadar"
+  ],
+  "Perojpur": [
+    "Bhandaria",
+    "Kaukhali",
+    "Mothanabaria",
+    "Nazirpur",
+    "Nesarabad",
+    "Sadar",
+    "Zianagar"
+  ],
+  "Khulna": [
+    "Daulatpur",
+    "Sadar",
+    "Sonadanga"
+  ],
+  "Bogra": [
+    "Adamdighi",
+    "Dhunot",
+    "Dupchachia",
+    "Gabtoli",
+    "Kahalu",
+    "Nandigram",
+    "Sadar",
+    "Saria kandi",
+    "Shajahanpur",
+    "Sherpur",
+    "Shibgonj",
+    "Sonatola"
+  ],
+  "Pabna": [
+    "Atghoria",
+    "Bera",
+    "Bhangura",
+    "Chatmohor",
+    "Faridpur",
+    "Ishwardi",
+    "Sadar",
+    "Sathanaia",
+    "Sujanagar"
+  ],
+  "Rajshahi": [
+    "Bagha",
+    "Baghmara",
+    "Boalia",
+    "Charghat",
+    "Durgapur",
+    "Godagri",
+    "Mohonpur",
+    "Poba",
+    "Putia",
+    "Rajpara",
+    "Tanor"
+  ],
+  "Natore": [
+    "Bagatipara",
+    "Boraigram",
+    "Gurudaspur",
+    "Lalpur",
+    "Naldanga_",
+    "Sadar",
+    "Singra"
+  ],
+  "Chapai N. Gonj": [
+    "Bholahat",
+    "Gomostapur",
+    "Nachol",
+    "Sadar",
+    "Shibgonj"
+  ],
+  "Nogaon": [
+    "Atrai",
+    "Badalgachi",
+    "Dhamorhat",
+    "Manda",
+    "Mohadebpur",
+    "Niamatpur",
+    "Porsha",
+    "Potnitola",
+    "Raninagar",
+    "Sadar",
+    "Sapahar"
+  ],
+  "Joipurhat": [
+    "Akkelpur",
+    "Kalai",
+    "Khetlal",
+    "Panch bibi",
+    "Sadar"
+  ],
+  "Sirajgonj": [
+    "Belkuchi",
+    "Chowhali",
+    "Kamar khand",
+    "Kazipur",
+    "Roygonj",
+    "Sadar",
+    "Shahadpur",
+    "Tarash",
+    "Ullapara"
+  ],
+  "Nilphamari": [
+    "Dimla",
+    "Domar",
+    "Jaldhaka",
+    "Keshoregonj",
+    "Sadar",
+    "Saidpur"
+  ],
+  "Thanaakurgaon": [
+    "Baliadangi",
+    "Horipur",
+    "Pirgonj",
+    "Ranisankail",
+    "Sadar"
+  ],
+  "Gaibandha": [
+    "Gobindagonj",
+    "Palashbari",
+    "Phulchari",
+    "Sadar",
+    "Sadullapur",
+    "Saghat",
+    "Sundargonj"
+  ],
+  "Lalmonirhat": [
+    "Aditmari",
+    "Hatibandha",
+    "Kaligonj",
+    "Patgram",
+    "Sadar"
+  ],
+  "Kurigram": [
+    "Bhurungamari",
+    "Chilmari",
+    "Nageshwori",
+    "Phulbari",
+    "Rajarhat",
+    "Rajibpur",
+    "Rowmari",
+    "Sadar",
+    "Ulipur"
+  ],
+  "Dinajpur": [
+    "Berol",
+    "Birampur",
+    "Birgonj",
+    "Bochagonj",
+    "Chirir bandor",
+    "Ghoraghat",
+    "Hakimpur",
+    "Kaharol",
+    "Khansama",
+    "Nawabgonj",
+    "Parbotipur",
+    "Phulbari",
+    "Sadar"
+  ],
+  "Rangpur": [
+    "Badargonj",
+    "Gongachora",
+    "Kaunia",
+    "Methanaapukur",
+    "Pirgacha",
+    "Pirgonj",
+    "Sadar",
+    "Taragonj"
+  ],
+  "Panchagarh": [
+    "Atwori",
+    "Boda",
+    "Debigonj",
+    "Sadar",
+    "Tetulia"
+  ]
+}

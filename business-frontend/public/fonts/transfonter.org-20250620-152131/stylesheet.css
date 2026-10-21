@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Kalpurush';
+    src: url('Kalpurush.woff2') format('woff2'),
+        url('Kalpurush.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,2190 @@
+{
+  "business_categories": [
+    {
+      "key": "agriculture_agro",
+      "name_en": "Agriculture & Agro-Based Business",
+      "name_bn": "কৃষি ও কৃষি-ভিত্তিক ব্যবসা",
+      "subcategories": [
+        {
+          "key": "crop_farming",
+          "name_en": "Crop Farming",
+          "name_bn": "ফসল ব্যবসা/চাষ",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Mon", "bn": "মণ"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Bundle", "bn": "গুচ্ছ"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Acre", "bn": "একর"},
+            {"en": "Hectare", "bn": "হেক্টর"},
+            {"en": "Bigha", "bn": "বিঘা"},
+            {"en": "Katha", "bn": "কাঠা"}
+          ]
+        },
+        {
+          "key": "vegetable_farming",
+          "name_en": "Vegetable Farming",
+          "name_bn": "সবজি ব্যবসা/চাষ",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Bundle", "bn": "গুচ্ছ"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Bunch", "bn": "গুচ্ছ"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"}
+          ]
+        },
+        {
+          "key": "fruit_orchard",
+          "name_en": "Fruit Orchard",
+          "name_bn": "ফল বাগান/ব্যবসা",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Bundle", "bn": "গুচ্ছ"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"}
+          ]
+        },
+        {
+          "key": "dairy_farm",
+          "name_en": "Dairy Farm",
+          "name_bn": "ডেইরি ফার্ম",
+          "units": [
+            {"en": "Liter (L)", "bn": "লিটার"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Jar", "bn": "জার"},
+            {"en": "Can", "bn": "ক্যান"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Pouch", "bn": "পাউচ"},
+            {"en": "Tetra Pak", "bn": "টেট্রা প্যাক"},
+            {"en": "Gallon", "bn": "গ্যালন"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Dozen", "bn": "ডজন"}
+          ]
+        },
+        {
+          "key": "poultry_farm",
+          "name_en": "Poultry Farm",
+          "name_bn": "পোল্ট্রি ফার্ম",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Bag", "bn": "বস্তা"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Case", "bn": "কেস"},
+            {"en": "Ton", "bn": "টন"}
+          ]
+        },
+        {
+          "key": "fish_farming",
+          "name_en": "Fish Farming",
+          "name_bn": "মাছ খামার/ব্যবসা",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Mon", "bn": "মণ"}
+          ]
+        },
+        {
+          "key": "shrimp_farming",
+          "name_en": "Shrimp Farming",
+          "name_bn": "চিংড়ি ব্যবসা/চাষ",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"}
+          ]
+        },
+        {
+          "key": "mushroom_farming",
+          "name_en": "Mushroom Farming",
+          "name_bn": "মাশরুম ব্যবসা/চাষ",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Bag", "bn": "বস্তা"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Bundle", "bn": "গুচ্ছ"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"}
+          ]
+        },
+        {
+          "key": "agro_processing",
+          "name_en": "Agro Processing",
+          "name_bn": "এগ্রো প্রসেসিং",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Liter (L)", "bn": "লিটার"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Jar", "bn": "জার"},
+            {"en": "Can", "bn": "ক্যান"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"}
+          ]
+        },
+        {
+          "key": "rice_mill",
+          "name_en": "Rice Mill",
+          "name_bn": "ধান/চাল মিল",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Mon", "bn": "মণ"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Packet", "bn": "প্যাকেট"}
+          ]
+        },
+        {
+          "key": "flour_mill",
+          "name_en": "Flour Mill",
+          "name_bn": "আটা/ময়দা মিল",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Piece", "bn": "পিস"}
+          ]
+        },
+        {
+          "key": "cold_storage",
+          "name_en": "Cold Storage",
+          "name_bn": "কোল্ড স্টোরেজ",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Dozen", "bn": "ডজন"}
+          ]
+        },
+        {
+          "key": "fertilizer_business",
+          "name_en": "Fertilizer Business",
+          "name_bn": "সার ব্যবসা",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Liter (L)", "bn": "লিটার"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Can", "bn": "ক্যান"},
+            {"en": "Quintal", "bn": "কুইন্টাল"}
+          ]
+        },
+        {
+          "key": "pesticide_sales",
+          "name_en": "Pesticide Sales",
+          "name_bn": "কীটনাশক ব্যবসা",
+          "units": [
+            {"en": "Liter (L)", "bn": "লিটার"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Can", "bn": "ক্যান"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Bag", "bn": "বস্তা"},
+            {"en": "Jar", "bn": "জার"},
+            {"en": "Spray Bottle", "bn": "স্প্রে বোতল"},
+            {"en": "Drum", "bn": "ড্রাম"}
+          ]
+        },
+        {
+          "key": "seed_business",
+          "name_en": "Seed Business",
+          "name_bn": "বীজ ব্যবসা",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "livestock_animal",
+      "name_en": "Livestock & Animal-Based Business",
+      "name_bn": "পশুপালন ও প্রাণী-ভিত্তিক ব্যবসা",
+      "subcategories": [
+        {
+          "key": "dairy_milk",
+          "name_en": "Dairy Milk Supply",
+          "name_bn": "দুধ সরবরাহ ব্যবসা",
+          "units": [
+            {"en": "Liter (L)", "bn": "লিটার"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Jar", "bn": "জার"},
+            {"en": "Can", "bn": "ক্যান"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Pouch", "bn": "পাউচ"},
+            {"en": "Tetra Pak", "bn": "টেট্রা প্যাক"},
+            {"en": "Gallon", "bn": "গ্যালন"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Packet", "bn": "প্যাকেট"}
+          ]
+        },
+        {
+          "key": "beef_fattening",
+          "name_en": "Beef Fattening",
+          "name_bn": "গরু মোটাতাজাকরণ",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Mon", "bn": "মণ"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Bag/Sack", "bn": "বস্তা"}
+          ]
+        },
+        {
+          "key": "goat_farming",
+          "name_en": "Goat Farming",
+          "name_bn": "ছাগল ফার্ম",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Mon", "bn": "মণ"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Bag/Sack", "bn": "বস্তা"}
+          ]
+        },
+        {
+          "key": "sheep_farming",
+          "name_en": "Sheep Farming",
+          "name_bn": "ভেড়া ফার্ম",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Mon", "bn": "মণ"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Bag/Sack", "bn": "বস্তা"}
+          ]
+        },
+        {
+          "key": "duck_farming",
+          "name_en": "Duck Farming",
+          "name_bn": "হাঁস ফার্ম",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Bag", "bn": "বস্তা"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Ton", "bn": "টন"}
+          ]
+        },
+        {
+          "key": "quail_farming",
+          "name_en": "Quail Farming",
+          "name_bn": "কোয়েল পাখি ফার্ম",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Bag", "bn": "বস্তা"},
+            {"en": "Packet", "bn": "প্যাকেট"}
+          ]
+        },
+        {
+          "key": "pigeon_farming",
+          "name_en": "Pigeon Farming",
+          "name_bn": "কবুতর ফার্ম",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Bag", "bn": "বস্তা"},
+            {"en": "Packet", "bn": "প্যাকেট"}
+          ]
+        },
+        {
+          "key": "fish_feed_production",
+          "name_en": "Fish Feed Production",
+          "name_bn": "মাছের খাদ্য উৎপাদন",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Crate", "bn": "ক্রেট"}
+          ]
+        },
+        {
+          "key": "cattle_feed_production",
+          "name_en": "Cattle Feed Production",
+          "name_bn": "গবাদি খাদ্য উৎপাদন",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Crate", "bn": "ক্রেট"}
+          ]
+        },
+        {
+          "key": "honey_beekeeping",
+          "name_en": "Honey & Beekeeping",
+          "name_bn": "মৌমাছি পালন ও মধু উৎপাদন",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Jar", "bn": "জার"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Can", "bn": "ক্যান"},
+            {"en": "Liter (L)", "bn": "লিটার"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Dozen", "bn": "ডজন"}
+          ]
+        },
+        {
+          "key": "leather_processing",
+          "name_en": "Leather Processing",
+          "name_bn": "চামড়া প্রক্রিয়াজাতকরণ",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Hide/Skin", "bn": "চামড়া"},
+            {"en": "Square Meter (sqm)", "bn": "বর্গমিটার"},
+            {"en": "Square Foot (sqft)", "bn": "বর্গফুট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Bag", "bn": "বস্তা"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"}
+          ]
+        }
+      ]
+    },
+    {
+        "key": "food_beverage",
+        "name_en": "Food & Beverage",
+        "name_bn": "খাদ্য ও পানীয়",
+        "subcategories": [
+            {
+            "key": "restaurant",
+            "name_en": "Restaurant",
+            "name_bn": "রেস্টুরেন্ট",
+            "units": [
+                {"en": "Plate", "bn": "প্লেট"},
+                {"en": "Serving", "bn": "সার্ভিং"},
+                {"en": "Portion", "bn": "পোর্শন"},
+                {"en": "Bowl", "bn": "বাটি"},
+                {"en": "Piece", "bn": "পিস"},
+                {"en": "Set/Combo", "bn": "সেট/কম্বো"},
+                {"en": "Tray", "bn": "ট্রে"},
+                {"en": "Dozen", "bn": "ডজন"},
+                {"en": "Kilogram (kg)", "bn": "কেজি"},
+                {"en": "Gram (g)", "bn": "গ্রাম"},
+                {"en": "Milligram (mg)", "bn": "মিলিগ্রাম"},
+                {"en": "Liter (L)", "bn": "লিটার"},
+                {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+                {"en": "Bottle", "bn": "বোতল"},
+                {"en": "Glass", "bn": "গ্লাস"},
+                {"en": "Cup", "bn": "কাপ"},
+                {"en": "Can", "bn": "ক্যান"},
+                {"en": "Jar", "bn": "জার"},
+                {"en": "Packet", "bn": "প্যাকেট"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Carton", "bn": "কার্টন"},
+                {"en": "Bag/Sack", "bn": "বস্তা"},
+                {"en": "Packet (Spice)", "bn": "প্যাকেট (মসলা)"},
+                {"en": "Bundle", "bn": "গুচ্ছ"}
+            ]
+            },
+            {
+            "key": "cafe",
+            "name_en": "Café",
+            "name_bn": "ক্যাফে",
+            "units": [
+                {"en": "Cup", "bn": "কাপ"},
+                {"en": "Mug", "bn": "মগ"},
+                {"en": "Glass", "bn": "গ্লাস"},
+                {"en": "Bottle", "bn": "বোতল"},
+                {"en": "Piece", "bn": "পিস"},
+                {"en": "Slice", "bn": "টুকরা"},
+                {"en": "Dozen", "bn": "ডজন"},
+                {"en": "Set/Combo", "bn": "সেট/কম্বো"},
+                {"en": "Tray", "bn": "ট্রে"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Packet", "bn": "প্যাকেট"},
+                {"en": "Kilogram (kg)", "bn": "কেজি"},
+                {"en": "Gram (g)", "bn": "গ্রাম"},
+                {"en": "Milligram (mg)", "bn": "মিলিগ্রাম"},
+                {"en": "Liter (L)", "bn": "লিটার"},
+                {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+                {"en": "Can", "bn": "ক্যান"},
+                {"en": "Jar", "bn": "জার"},
+                {"en": "Carton", "bn": "কার্টন"},
+                {"en": "Bag", "bn": "বস্তা"},
+                {"en": "Sachet", "bn": "স্যাশে"},
+                {"en": "Stick", "bn": "স্টিক"},
+                {"en": "Portion", "bn": "পোর্শন"},
+                {"en": "Serving", "bn": "সার্ভিং"}
+            ]
+            },
+            {
+            "key": "bakery",
+            "name_en": "Bakery",
+            "name_bn": "বেকারি",
+            "units": [
+                {"en": "Piece", "bn": "পিস"},
+                {"en": "Slice", "bn": "টুকরা"},
+                {"en": "Dozen", "bn": "ডজন"},
+                {"en": "Set/Combo", "bn": "সেট/কম্বো"},
+                {"en": "Tray", "bn": "ট্রে"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Packet", "bn": "প্যাকেট"},
+                {"en": "Carton", "bn": "কার্টন"},
+                {"en": "Kilogram (kg)", "bn": "কেজি"},
+                {"en": "Gram (g)", "bn": "গ্রাম"},
+                {"en": "Milligram (mg)", "bn": "মিলিগ্রাম"},
+                {"en": "Liter (L)", "bn": "লিটার"},
+                {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+                {"en": "Bottle", "bn": "বোতল"},
+                {"en": "Jar", "bn": "জার"},
+                {"en": "Can", "bn": "ক্যান"},
+                {"en": "Bag", "bn": "বস্তা"}
+            ]
+            },
+            {
+            "key": "street_food_shop",
+            "name_en": "Street Food Shop",
+            "name_bn": "স্ট্রিট ফুড দোকান",
+            "units": [
+                {"en": "Piece", "bn": "পিস"},
+                {"en": "Plate", "bn": "প্লেট"},
+                {"en": "Serving", "bn": "সার্ভিং"},
+                {"en": "Portion", "bn": "পোর্শন"},
+                {"en": "Dozen", "bn": "ডজন"},
+                {"en": "Set/Combo", "bn": "সেট/কম্বো"},
+                {"en": "Kilogram (kg)", "bn": "কেজি"},
+                {"en": "Gram (g)", "bn": "গ্রাম"},
+                {"en": "Liter (L)", "bn": "লিটার"},
+                {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+                {"en": "Bottle", "bn": "বোতল"},
+                {"en": "Packet", "bn": "প্যাকেট"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Bag", "bn": "বস্তা"}
+            ]
+            },
+            {
+            "key": "catering_service",
+            "name_en": "Catering Service",
+            "name_bn": "ক্যাটারিং সার্ভিস",
+            "units": [
+                {"en": "Plate", "bn": "প্লেট"},
+                {"en": "Person", "bn": "ব্যক্তি"},
+                {"en": "Serving", "bn": "সার্ভিং"},
+                {"en": "Portion", "bn": "পোর্শন"},
+                {"en": "Set/Combo", "bn": "সেট/কম্বো"},
+                {"en": "Tray", "bn": "ট্রে"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Carton", "bn": "কার্টন"},
+                {"en": "Kilogram (kg)", "bn": "কেজি"},
+                {"en": "Gram (g)", "bn": "গ্রাম"},
+                {"en": "Liter (L)", "bn": "লিটার"},
+                {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+                {"en": "Bottle", "bn": "বোতল"},
+                {"en": "Jar", "bn": "জার"},
+                {"en": "Can", "bn": "ক্যান"},
+                {"en": "Packet", "bn": "প্যাকেট"},
+                {"en": "Bag", "bn": "বস্তা"},
+                {"en": "Dozen", "bn": "ডজন"},
+                {"en": "Piece", "bn": "পিস"}
+            ]
+            },
+            {
+            "key": "ice_cream_factory",
+            "name_en": "Ice Cream Factory",
+            "name_bn": "আইসক্রিম কারখানা",
+            "units": [
+                {"en": "Kilogram (kg)", "bn": "কেজি"},
+                {"en": "Gram (g)", "bn": "গ্রাম"},
+                {"en": "Liter (L)", "bn": "লিটার"},
+                {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+                {"en": "Cone", "bn": "কোন"},
+                {"en": "Cup", "bn": "কাপ"},
+                {"en": "Tub", "bn": "টব"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Carton", "bn": "কার্টন"},
+                {"en": "Packet", "bn": "প্যাকেট"},
+                {"en": "Piece", "bn": "পিস"},
+                {"en": "Dozen", "bn": "ডজন"},
+                {"en": "Tray", "bn": "ট্রে"},
+                {"en": "Bottle", "bn": "বোতল"},
+                {"en": "Jar", "bn": "জার"}
+            ]
+            },
+            {
+            "key": "snack_chips_factory",
+            "name_en": "Snack/Chips Factory",
+            "name_bn": "স্ন্যাকস/চিপস কারখানা",
+            "units": [
+                {"en": "Packet", "bn": "প্যাকেট"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Carton", "bn": "কার্টন"},
+                {"en": "Bag", "bn": "বস্তা"},
+                {"en": "Kilogram (kg)", "bn": "কেজি"},
+                {"en": "Gram (g)", "bn": "গ্রাম"},
+                {"en": "Piece", "bn": "পিস"},
+                {"en": "Dozen", "bn": "ডজন"},
+                {"en": "Tray", "bn": "ট্রে"},
+                {"en": "Ton", "bn": "টন"}
+            ]
+            },
+            {
+            "key": "pickle_manufacturing",
+            "name_en": "Pickle Manufacturing",
+            "name_bn": "আচার উৎপাদন",
+            "units": [
+                {"en": "Jar", "bn": "জার"},
+                {"en": "Bottle", "bn": "বোতল"},
+                {"en": "Can", "bn": "ক্যান"},
+                {"en": "Packet", "bn": "প্যাকেট"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Carton", "bn": "কার্টন"},
+                {"en": "Kilogram (kg)", "bn": "কেজি"},
+                {"en": "Gram (g)", "bn": "গ্রাম"},
+                {"en": "Liter (L)", "bn": "লিটার"},
+                {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+                {"en": "Piece", "bn": "পিস"},
+                {"en": "Dozen", "bn": "ডজন"},
+                {"en": "Bag", "bn": "বস্তা"}
+            ]
+            },
+            {
+            "key": "spice_grinding",
+            "name_en": "Spice Grinding",
+            "name_bn": "মসলা পেষাই",
+            "units": [
+                {"en": "Kilogram (kg)", "bn": "কেজি"},
+                {"en": "Gram (g)", "bn": "গ্রাম"},
+                {"en": "Milligram (mg)", "bn": "মিলিগ্রাম"},
+                {"en": "Packet", "bn": "প্যাকেট"},
+                {"en": "Bag", "bn": "বস্তা"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Jar", "bn": "জার"},
+                {"en": "Bottle", "bn": "বোতল"},
+                {"en": "Can", "bn": "ক্যান"},
+                {"en": "Carton", "bn": "কার্টন"},
+                {"en": "Ton", "bn": "টন"},
+                {"en": "Quintal", "bn": "কুইন্টাল"}
+            ]
+            },
+            {
+            "key": "water_bottling",
+            "name_en": "Water Bottling",
+            "name_bn": "মিনারেল ওয়াটার উৎপাদন",
+            "units": [
+                {"en": "Bottle", "bn": "বোতল"},
+                {"en": "Liter (L)", "bn": "লিটার"},
+                {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Carton", "bn": "কার্টন"},
+                {"en": "Case", "bn": "কেস"},
+                {"en": "Pack", "bn": "প্যাক"},
+                {"en": "Dozen", "bn": "ডজন"},
+                {"en": "Piece", "bn": "পিস"},
+                {"en": "Gallon", "bn": "গ্যালন"},
+                {"en": "Drum", "bn": "ড্রাম"},
+                {"en": "Can", "bn": "ক্যান"}
+            ]
+            },
+            {
+            "key": "juice_production",
+            "name_en": "Juice Production",
+            "name_bn": "জুস উৎপাদন",
+            "units": [
+                {"en": "Liter (L)", "bn": "লিটার"},
+                {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+                {"en": "Bottle", "bn": "বোতল"},
+                {"en": "Glass", "bn": "গ্লাস"},
+                {"en": "Box", "bn": "বক্স"},
+                {"en": "Carton", "bn": "কার্টন"},
+                {"en": "Case", "bn": "কেস"},
+                {"en": "Pack", "bn": "প্যাক"},
+                {"en": "Dozen", "bn": "ডজন"},
+                {"en": "Piece", "bn": "পিস"},
+                {"en": "Can", "bn": "ক্যান"},
+                {"en": "Jar", "bn": "জার"},
+                {"en": "Tetra Pak", "bn": "টেট্রা প্যাক"},
+                {"en": "Pouch", "bn": "পাউচ"}
+            ]
+            }
+        ]
+    },
+    {
+        "key": "retail_wholesale",
+        "name_en": "Retail & Wholesale Trading",
+        "name_bn": "খুচরা ও পাইকারি ব্যবসা",
+        "subcategories": [
+          {
+            "key": "grocery_shop",
+            "name_en": "Grocery Shop",
+            "name_bn": "মুদি দোকান",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Gram (g)", "bn": "গ্রাম"},
+              {"en": "Packet", "bn": "প্যাকেট"},
+              {"en": "Bag", "bn": "বস্তা"},
+              {"en": "Bottle", "bn": "বোতল"},
+              {"en": "Dozen", "bn": "ডজন"}
+            ]
+          },
+          {
+            "key": "super_shop",
+            "name_en": "Super Shop",
+            "name_bn": "সুপারশপ",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Gram (g)", "bn": "গ্রাম"},
+              {"en": "Packet", "bn": "প্যাকেট"},
+              {"en": "Bottle", "bn": "বোতল"},
+              {"en": "Dozen", "bn": "ডজন"},
+              {"en": "Bag", "bn": "বস্তা"}
+            ]
+          },
+          {
+            "key": "clothing_store",
+            "name_en": "Clothing Store",
+            "name_bn": "কাপড়ের দোকান",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Dozen", "bn": "ডজন"},
+              {"en": "Set", "bn": "সেট"}
+            ]
+          },
+          {
+            "key": "electronics_shop",
+            "name_en": "Electronics Shop",
+            "name_bn": "ইলেকট্রনিক্স দোকান",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Box", "bn": "বক্স"}
+            ]
+          },
+          {
+            "key": "mobile_shop",
+            "name_en": "Mobile Shop",
+            "name_bn": "মোবাইল দোকান",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Box", "bn": "বক্স"}
+            ]
+          },
+          {
+            "key": "cosmetics_shop",
+            "name_en": "Cosmetics Shop",
+            "name_bn": "কসমেটিকস দোকান",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Gram (g)", "bn": "গ্রাম"},
+              {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+              {"en": "Bottle", "bn": "বোতল"},
+              {"en": "Packet", "bn": "প্যাকেট"}
+            ]
+          },
+          {
+            "key": "hardware_store",
+            "name_en": "Hardware Store",
+            "name_bn": "হার্ডওয়্যার দোকান",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Meter (m)", "bn": "মিটার"}
+            ]
+          },
+          {
+            "key": "stationery_shop",
+            "name_en": "Stationery Shop",
+            "name_bn": "স্টেশনারি দোকান",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Pack", "bn": "প্যাক"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Box", "bn": "বক্স"}
+            ]
+          },
+          {
+            "key": "bookstore",
+            "name_en": "Bookstore",
+            "name_bn": "বইয়ের দোকান",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Pack", "bn": "প্যাক"},
+              {"en": "Box", "bn": "বক্স"}
+            ]
+          },
+          {
+            "key": "furniture_shop",
+            "name_en": "Furniture Shop",
+            "name_bn": "ফার্নিচার দোকান",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"}
+            ]
+          },
+          {
+            "key": "wholesale_trader",
+            "name_en": "Wholesale Trader",
+            "name_bn": "পাইকারি ব্যবসা",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Dozen", "bn": "ডজন"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Gram (g)", "bn": "গ্রাম"},
+              {"en": "Bag", "bn": "বস্তা"},
+              {"en": "Box", "bn": "বক্স"}
+            ]
+          }
+        ]
+    },
+    {
+        "key": "ecommerce_online",
+        "name_en": "E-Commerce & Online Business",
+        "name_bn": "ই-কমার্স ও অনলাইন ব্যবসা",
+        "subcategories": [
+          {
+            "key": "online_store",
+            "name_en": "Online Store",
+            "name_bn": "অনলাইন দোকান",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Packet", "bn": "প্যাকেট"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Gram (g)", "bn": "গ্রাম"},
+              {"en": "Bottle", "bn": "বোতল"},
+              {"en": "Dozen", "bn": "ডজন"}
+            ]
+          },
+          {
+            "key": "multivendor_marketplace",
+            "name_en": "Multivendor Marketplace",
+            "name_bn": "মাল্টিভেন্ডর মার্কেটপ্লেস",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Packet", "bn": "প্যাকেট"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Gram (g)", "bn": "গ্রাম"},
+              {"en": "Bottle", "bn": "বোতল"},
+              {"en": "Dozen", "bn": "ডজন"}
+            ]
+          },
+          {
+            "key": "f_commerce",
+            "name_en": "F-Commerce",
+            "name_bn": "এফ-কমার্স",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Packet", "bn": "প্যাকেট"}
+            ]
+          },
+          {
+            "key": "dropshipping",
+            "name_en": "Dropshipping",
+            "name_bn": "ড্রপশিপিং",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Packet", "bn": "প্যাকেট"}
+            ]
+          },
+          {
+            "key": "print_on_demand",
+            "name_en": "Print on Demand",
+            "name_bn": "প্রিন্ট-অন-ডিমান্ড",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"}
+            ]
+          },
+          {
+            "key": "digital_products",
+            "name_en": "Digital Products",
+            "name_bn": "ডিজিটাল পণ্য",
+            "units": [
+              {"en": "License", "bn": "লাইসেন্স"},
+              {"en": "Download", "bn": "ডাউনলোড"}
+            ]
+          },
+          {
+            "key": "online_grocery_delivery",
+            "name_en": "Online Grocery Delivery",
+            "name_bn": "অনলাইন মুদি ডেলিভারি",
+            "units": [
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Gram (g)", "bn": "গ্রাম"},
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Packet", "bn": "প্যাকেট"},
+              {"en": "Bottle", "bn": "বোতল"},
+              {"en": "Dozen", "bn": "ডজন"}
+            ]
+          },
+          {
+            "key": "food_delivery",
+            "name_en": "Food Delivery",
+            "name_bn": "ফুড ডেলিভারি",
+            "units": [
+              {"en": "Plate", "bn": "প্লেট"},
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Liter (L)", "bn": "লিটার"}
+            ]
+          },
+          {
+            "key": "online_pharmacy",
+            "name_en": "Online Pharmacy",
+            "name_bn": "অনলাইন ফার্মেসি",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Box", "bn": "বক্স"},
+              {"en": "Bottle", "bn": "বোতল"},
+              {"en": "Tablet", "bn": "ট্যাবলেট"},
+              {"en": "Capsule", "bn": "ক্যাপসুল"},
+              {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+              {"en": "Gram (g)", "bn": "গ্রাম"}
+            ]
+          },
+          {
+            "key": "e_learning_platform",
+            "name_en": "E-Learning Platform",
+            "name_bn": "ই-লার্নিং প্ল্যাটফর্ম",
+            "units": [
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Module", "bn": "মডিউল"},
+              {"en": "Lesson", "bn": "পাঠ"}
+            ]
+          }
+        ]
+    },
+    {
+        "key": "transport_mobility",
+        "name_en": "Transport & Mobility",
+        "name_bn": "পরিবহন ও চলাচল",
+        "subcategories": [
+          {
+            "key": "ride_sharing",
+            "name_en": "Ride Sharing",
+            "name_bn": "রাইড শেয়ারিং",
+            "units": [
+              {"en": "Ride", "bn": "রাইড"},
+              {"en": "Kilometer (km)", "bn": "কিলোমিটার"},
+              {"en": "Passenger", "bn": "যাত্রী"}
+            ]
+          },
+          {
+            "key": "truck_transport",
+            "name_en": "Truck Transport",
+            "name_bn": "ট্রাক পরিবহন",
+            "units": [
+              {"en": "Ton", "bn": "টন"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Cubic Meter (m³)", "bn": "কিউবিক মিটার"},
+              {"en": "Kilometer (km)", "bn": "কিলোমিটার"}
+            ]
+          },
+          {
+            "key": "bus_service",
+            "name_en": "Bus Service",
+            "name_bn": "বাস সার্ভিস",
+            "units": [
+              {"en": "Seat", "bn": "সিট"},
+              {"en": "Passenger", "bn": "যাত্রী"},
+              {"en": "Trip", "bn": "ট্রিপ"},
+              {"en": "Kilometer (km)", "bn": "কিলোমিটার"}
+            ]
+          },
+          {
+            "key": "human_hauler",
+            "name_en": "Human Hauler",
+            "name_bn": "হিউম্যান হলার",
+            "units": [
+              {"en": "Passenger", "bn": "যাত্রী"},
+              {"en": "Trip", "bn": "ট্রিপ"}
+            ]
+          },
+          {
+            "key": "auto_rickshaw",
+            "name_en": "Auto Rickshaw Business",
+            "name_bn": "অটোরিকশা ব্যবসা",
+            "units": [
+              {"en": "Ride", "bn": "রাইড"},
+              {"en": "Passenger", "bn": "যাত্রী"},
+              {"en": "Kilometer (km)", "bn": "কিলোমিটার"}
+            ]
+          },
+          {
+            "key": "courier_service",
+            "name_en": "Courier Service",
+            "name_bn": "কুরিয়ার সার্ভিস",
+            "units": [
+              {"en": "Package", "bn": "প্যাকেজ"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Parcel", "bn": "পার্সেল"},
+              {"en": "Delivery", "bn": "ডেলিভারি"}
+            ]
+          },
+          {
+            "key": "cargo_shipping",
+            "name_en": "Cargo Shipping",
+            "name_bn": "কার্গো শিপিং",
+            "units": [
+              {"en": "Ton", "bn": "টন"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Cubic Meter (m³)", "bn": "কিউবিক মিটার"},
+              {"en": "Container", "bn": "কন্টেইনার"}
+            ]
+          }
+        ]
+    },   
+    {
+        "key": "manufacturing_industry",
+        "name_en": "Manufacturing & Industry",
+        "name_bn": "উৎপাদন ও শিল্প",
+        "subcategories": [
+          {
+            "key": "garments_rmg",
+            "name_en": "Garments (RMG)",
+            "name_bn": "গার্মেন্টস",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Dozen", "bn": "ডজন"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"}
+            ]
+          },
+          {
+            "key": "textile_mill",
+            "name_en": "Textile Mill",
+            "name_bn": "টেক্সটাইল মিল",
+            "units": [
+              {"en": "Meter", "bn": "মিটার"},
+              {"en": "Roll", "bn": "রোল"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"}
+            ]
+          },
+          {
+            "key": "plastic_factory",
+            "name_en": "Plastic Factory",
+            "name_bn": "প্লাস্টিক কারখানা",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Liter (L)", "bn": "লিটার"},
+              {"en": "Packet", "bn": "প্যাকেট"}
+            ]
+          },
+          {
+            "key": "cement_factory",
+            "name_en": "Cement Factory",
+            "name_bn": "সিমেন্ট কারখানা",
+            "units": [
+              {"en": "Bag", "bn": "ব্যাগ"},
+              {"en": "Ton", "bn": "টন"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"}
+            ]
+          },
+          {
+            "key": "steel_rod_factory",
+            "name_en": "Steel & Rod Factory",
+            "name_bn": "স্টিল/রড কারখানা",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Ton", "bn": "টন"},
+              {"en": "Meter", "bn": "মিটার"}
+            ]
+          },
+          {
+            "key": "brickfield",
+            "name_en": "Brickfield",
+            "name_bn": "ইটভাটা",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Thousand Pieces", "bn": "হাজার পিস"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"}
+            ]
+          },
+          {
+            "key": "pharmaceuticals",
+            "name_en": "Pharmaceuticals",
+            "name_bn": "ফার্মাসিউটিক্যালস",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Box", "bn": "বক্স"},
+              {"en": "Bottle", "bn": "বোতল"},
+              {"en": "Tablet", "bn": "ট্যাবলেট"},
+              {"en": "Capsule", "bn": "ক্যাপসুল"},
+              {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+              {"en": "Gram (g)", "bn": "গ্রাম"}
+            ]
+          },
+          {
+            "key": "electronics_assembly",
+            "name_en": "Electronics Assembly",
+            "name_bn": "ইলেকট্রনিক্স অ্যাসেম্বলি",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Box", "bn": "বক্স"}
+            ]
+          },
+          {
+            "key": "furniture_manufacturing",
+            "name_en": "Furniture Manufacturing",
+            "name_bn": "ফার্নিচার উৎপাদন",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"}
+            ]
+          },
+          {
+            "key": "packaging_industry",
+            "name_en": "Packaging Industry",
+            "name_bn": "প্যাকেজিং শিল্প",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Box", "bn": "বক্স"},
+              {"en": "Packet", "bn": "প্যাকেট"},
+              {"en": "Roll", "bn": "রোল"}
+            ]
+          }
+        ]
+    },
+    {
+        "key": "construction_real_estate",
+        "name_en": "Construction & Real Estate",
+        "name_bn": "নির্মাণ ও রিয়েল এস্টেট",
+        "subcategories": [
+          {
+            "key": "real_estate_development",
+            "name_en": "Real Estate Development",
+            "name_bn": "রিয়েল এস্টেট",
+            "units": [
+              {"en": "Square Foot (sq.ft)", "bn": "বর্গফুট"},
+              {"en": "Square Meter (sq.m)", "bn": "বর্গমিটার"},
+              {"en": "Plot", "bn": "প্লট"},
+              {"en": "Building", "bn": "ভবন"}
+            ]
+          },
+          {
+            "key": "construction_firm",
+            "name_en": "Construction Firm",
+            "name_bn": "নির্মাণ প্রতিষ্ঠান",
+            "units": [
+              {"en": "Project", "bn": "প্রকল্প"},
+              {"en": "Cubic Meter (m³)", "bn": "কিউবিক মিটার"},
+              {"en": "Ton", "bn": "টন"},
+              {"en": "Piece", "bn": "পিস"}
+            ]
+          },
+          {
+            "key": "interior_design",
+            "name_en": "Interior Design",
+            "name_bn": "ইন্টেরিয়র ডিজাইন",
+            "units": [
+              {"en": "Square Foot (sq.ft)", "bn": "বর্গফুট"},
+              {"en": "Room", "bn": "রুম"},
+              {"en": "Project", "bn": "প্রকল্প"}
+            ]
+          },
+          {
+            "key": "architecture_firm",
+            "name_en": "Architecture Firm",
+            "name_bn": "আর্কিটেকচার ফার্ম",
+            "units": [
+              {"en": "Project", "bn": "প্রকল্প"},
+              {"en": "Plan", "bn": "পরিকল্পনা"},
+              {"en": "Building", "bn": "ভবন"}
+            ]
+          },
+          {
+            "key": "building_materials_supply",
+            "name_en": "Building Materials Supply",
+            "name_bn": "নির্মাণ সামগ্রী সরবরাহ",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Ton", "bn": "টন"},
+              {"en": "Cubic Meter (m³)", "bn": "কিউবিক মিটার"},
+              {"en": "Bag", "bn": "ব্যাগ"},
+              {"en": "Packet", "bn": "প্যাকেট"}
+            ]
+          }
+        ]
+    },
+    {
+        "key": "it_technology",
+        "name_en": "IT & Technology",
+        "name_bn": "আইটি ও প্রযুক্তি",
+        "subcategories": [
+          {
+            "key": "software_company",
+            "name_en": "Software Company",
+            "name_bn": "সফটওয়্যার কোম্পানি",
+            "units": [
+              {"en": "Project", "bn": "প্রকল্প"},
+              {"en": "License", "bn": "লাইসেন্স"},
+              {"en": "Subscription", "bn": "সাবস্ক্রিপশন"},
+              {"en": "User", "bn": "ব্যবহারকারী"}
+            ]
+          },
+          {
+            "key": "web_development",
+            "name_en": "Web Development",
+            "name_bn": "ওয়েব ডেভেলপমেন্ট",
+            "units": [
+              {"en": "Project", "bn": "প্রকল্প"},
+              {"en": "Page", "bn": "পেজ"},
+              {"en": "Module", "bn": "মডিউল"},
+              {"en": "User", "bn": "ব্যবহারকারী"}
+            ]
+          },
+          {
+            "key": "app_development",
+            "name_en": "App Development",
+            "name_bn": "অ্যাপ ডেভেলপমেন্ট",
+            "units": [
+              {"en": "Project", "bn": "প্রকল্প"},
+              {"en": "Module", "bn": "মডিউল"},
+              {"en": "User", "bn": "ব্যবহারকারী"},
+              {"en": "License", "bn": "লাইসেন্স"}
+            ]
+          },
+          {
+            "key": "ui_ux_design",
+            "name_en": "UI/UX Design",
+            "name_bn": "UI/UX ডিজাইন",
+            "units": [
+              {"en": "Page", "bn": "পেজ"},
+              {"en": "Screen", "bn": "স্ক্রিন"},
+              {"en": "Project", "bn": "প্রকল্প"},
+              {"en": "Template", "bn": "টেমপ্লেট"}
+            ]
+          },
+          {
+            "key": "cybersecurity",
+            "name_en": "Cybersecurity",
+            "name_bn": "সাইবার সিকিউরিটি",
+            "units": [
+              {"en": "System", "bn": "সিস্টেম"},
+              {"en": "Device", "bn": "ডিভাইস"},
+              {"en": "Project", "bn": "প্রকল্প"},
+              {"en": "User", "bn": "ব্যবহারকারী"}
+            ]
+          },
+          {
+            "key": "it_training_center",
+            "name_en": "IT Training Center",
+            "name_bn": "আইটি ট্রেনিং সেন্টার",
+            "units": [
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Batch", "bn": "ব্যাচ"},
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Module", "bn": "মডিউল"}
+            ]
+          },
+          {
+            "key": "bpo_service",
+            "name_en": "BPO Service",
+            "name_bn": "বিপিও সার্ভিস",
+            "units": [
+              {"en": "Project", "bn": "প্রকল্প"},
+              {"en": "Agent", "bn": "এজেন্ট"},
+              {"en": "Task", "bn": "টাস্ক"},
+              {"en": "Hour", "bn": "ঘণ্টা"}
+            ]
+          },
+          {
+            "key": "cctv_security",
+            "name_en": "CCTV & Security",
+            "name_bn": "সিসিটিভি ও সিকিউরিটি",
+            "units": [
+              {"en": "Device", "bn": "ডিভাইস"},
+              {"en": "Camera", "bn": "ক্যামেরা"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Installation", "bn": "ইনস্টলেশন"}
+            ]
+          }
+        ]
+      },
+      {
+        "key": "education_training",
+        "name_en": "Education & Training",
+        "name_bn": "শিক্ষা ও প্রশিক্ষণ",
+        "subcategories": [
+          {
+            "key": "school",
+            "name_en": "School",
+            "name_bn": "স্কুল",
+            "units": [
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Class", "bn": "ক্লাস"},
+              {"en": "Teacher", "bn": "শিক্ষক"},
+              {"en": "Course", "bn": "কোর্স"}
+            ]
+          },
+          {
+            "key": "coaching_center",
+            "name_en": "Coaching Center",
+            "name_bn": "কোচিং সেন্টার",
+            "units": [
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Batch", "bn": "ব্যাচ"},
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Session", "bn": "সেশন"}
+            ]
+          },
+          {
+            "key": "language_center",
+            "name_en": "Language Center",
+            "name_bn": "ভাষা প্রশিক্ষণ কেন্দ্র",
+            "units": [
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Level", "bn": "স্তর"},
+              {"en": "Batch", "bn": "ব্যাচ"}
+            ]
+          },
+          {
+            "key": "it_training_institute",
+            "name_en": "IT Training Institute",
+            "name_bn": "আইটি ট্রেনিং ইনস্টিটিউট",
+            "units": [
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Module", "bn": "মডিউল"},
+              {"en": "Batch", "bn": "ব্যাচ"}
+            ]
+          },
+          {
+            "key": "online_tutoring",
+            "name_en": "Online Tutoring",
+            "name_bn": "অনলাইন টিউটরিং",
+            "units": [
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Session", "bn": "সেশন"},
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Hour", "bn": "ঘণ্টা"}
+            ]
+          }
+        ]
+    },
+    
+      {
+        "key": "health_medical",
+        "name_en": "Health & Medical",
+        "name_bn": "স্বাস্থ্য ও চিকিৎসা",
+        "subcategories": [
+          {
+            "key": "hospital",
+            "name_en": "Hospital",
+            "name_bn": "হাসপাতাল",
+            "units": [
+              {"en": "Bed", "bn": "বেড"},
+              {"en": "Patient", "bn": "রোগী"},
+              {"en": "Doctor Visit", "bn": "ডাক্তারের ভিজিট"},
+              {"en": "Service", "bn": "সার্ভিস"}
+            ]
+          },
+          {
+            "key": "clinic",
+            "name_en": "Clinic",
+            "name_bn": "ক্লিনিক",
+            "units": [
+              {"en": "Patient", "bn": "রোগী"},
+              {"en": "Doctor Visit", "bn": "ডাক্তারের ভিজিট"},
+              {"en": "Test", "bn": "টেস্ট"},
+              {"en": "Service", "bn": "সার্ভিস"}
+            ]
+          },
+          {
+            "key": "diagnostic_center",
+            "name_en": "Diagnostic Center",
+            "name_bn": "ডায়াগনস্টিক সেন্টার",
+            "units": [
+              {"en": "Test", "bn": "টেস্ট"},
+              {"en": "Report", "bn": "রিপোর্ট"},
+              {"en": "Sample", "bn": "স্যাম্পল"},
+              {"en": "Service", "bn": "সার্ভিস"}
+            ]
+          },
+          {
+            "key": "pharmacy",
+            "name_en": "Pharmacy",
+            "name_bn": "ফার্মেসি",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Box", "bn": "বক্স"},
+              {"en": "Bottle", "bn": "বোতল"},
+              {"en": "Strip", "bn": "স্ট্রিপ"}
+            ]
+          },
+          {
+            "key": "dental_clinic",
+            "name_en": "Dental Clinic",
+            "name_bn": "ডেন্টাল ক্লিনিক",
+            "units": [
+              {"en": "Patient", "bn": "রোগী"},
+              {"en": "Procedure", "bn": "প্রসিডিউর"},
+              {"en": "Service", "bn": "সার্ভিস"},
+              {"en": "Session", "bn": "সেশন"}
+            ]
+          },
+          {
+            "key": "medical_equipment_supply",
+            "name_en": "Medical Equipment Supply",
+            "name_bn": "চিকিৎসা সরঞ্জাম সরবরাহ",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Box", "bn": "বক্স"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Unit", "bn": "ইউনিট"}
+            ]
+          }
+        ]
+    },
+
+    {
+      "key": "fashion_accessories",
+      "name_en": "Fashion & Accessories",
+      "name_bn": "ফ্যাশন ও অ্যাক্সেসরিজ",
+      "subcategories": [
+
+        {
+          "key": "boutique",
+          "name_en": "Boutique",
+          "name_bn": "বুটিক",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Meter", "bn": "মিটার"},
+            {"en": "Yard", "bn": "ইয়ার্ড"},
+            {"en": "Set", "bn": "সেট"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Roll", "bn": "রোল"},
+            {"en": "Pair", "bn": "জোড়া"}
+          ]
+        },
+        {
+          "key": "tailoring",
+          "name_en": "Tailoring",
+          "name_bn": "দর্জির কাজ",
+          "units": [
+            {"en": "Meter", "bn": "মিটার"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Roll", "bn": "রোল"},
+            {"en": "Spool", "bn": "সুতা স্পুল"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Pair", "bn": "জোড়া"},
+            {"en": "Dozen", "bn": "ডজন"}
+          ]
+        },
+        {
+          "key": "beauty_parlour",
+          "name_en": "Beauty Parlour",
+          "name_bn": "বিউটি পার্লার",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Tube", "bn": "টিউব"},
+            {"en": "Jar", "bn": "জার"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Set", "bn": "সেট"},
+            {"en": "Strip", "bn": "স্ট্রিপ"},
+            {"en": "Pair", "bn": "জোড়া"},
+            {"en": "Can", "bn": "ক্যান"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"}
+          ]
+        },
+        {
+          "key": "spa",
+          "name_en": "Spa",
+          "name_bn": "স্পা",
+          "units": [
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+            {"en": "Liter (L)", "bn": "লিটার"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Set", "bn": "সেট"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Jar", "bn": "জার"},
+            {"en": "Roll", "bn": "রোল"}
+          ]
+        },
+        {
+          "key": "jewelry_shop",
+          "name_en": "Jewelry Shop",
+          "name_bn": "গহনার দোকান",
+          "units": [
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Ana", "bn": "আনা"},
+            {"en": "Vori", "bn": "ভরি"},
+            {"en": "Carat", "bn": "ক্যারেট"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Set", "bn": "সেট"},
+            {"en": "Pair", "bn": "জোড়া"},
+            {"en": "Box", "bn": "বক্স"}
+          ]
+        },
+        {
+          "key": "handicrafts",
+          "name_en": "Handicrafts",
+          "name_bn": "হস্তশিল্প",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Set", "bn": "সেট"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Meter", "bn": "মিটার"},
+            {"en": "Roll", "bn": "রোল"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Box", "bn": "বক্স"}
+          ]
+        }         
+          
+      ]
+    },
+    {
+        "key": "creative_media_entertainment",
+        "name_en": "Creative, Media & Entertainment",
+        "name_bn": "ক্রিয়েটিভ, মিডিয়া ও বিনোদন",
+        "subcategories": [
+          {
+            "key": "photography_studio",
+            "name_en": "Photography Studio",
+            "name_bn": "ফটোগ্রাফি স্টুডিও",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Pair", "bn": "জোড়া"},
+              {"en": "Box", "bn": "বক্স"},
+              {"en": "Packet", "bn": "প্যাকেট"},
+              {"en": "Roll", "bn": "রোল"},
+              {"en": "GB", "bn": "জিবি"},
+              {"en": "TB", "bn": "টিবি"},
+              {"en": "Battery Unit", "bn": "ব্যাটারি ইউনিট"},
+              {"en": "Light Stand Unit", "bn": "লাইট স্ট্যান্ড ইউনিট"}
+            ]
+          },
+          {
+            "key": "videography_agency",
+            "name_en": "Videography Agency",
+            "name_bn": "ভিডিওগ্রাফি এজেন্সি",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Pair", "bn": "জোড়া"},
+              {"en": "Box", "bn": "বক্স"},
+              {"en": "Packet", "bn": "প্যাকেট"},
+              {"en": "GB", "bn": "জিবি"},
+              {"en": "TB", "bn": "টিবি"},
+              {"en": "Battery Unit", "bn": "ব্যাটারি ইউনিট"},
+              {"en": "Lighting Unit", "bn": "লাইটিং ইউনিট"},
+              {"en": "Audio Unit", "bn": "অডিও ইউনিট"}
+            ]
+          },
+          {
+            "key": "graphics_design",
+            "name_en": "Graphics Design",
+            "name_bn": "গ্রাফিক্স ডিজাইন",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Box", "bn": "বক্স"},
+              {"en": "Packet", "bn": "প্যাকেট"},
+              {"en": "Sheet", "bn": "শীট"},
+              {"en": "Roll", "bn": "রোল"},
+              {"en": "GB", "bn": "জিবি"},
+              {"en": "TB", "bn": "টিবি"},
+              {"en": "License", "bn": "লাইসেন্স"},
+              {"en": "Set", "bn": "সেট"}
+            ]
+          },
+          {
+            "key": "animation_vfx",
+            "name_en": "Animation & VFX",
+            "name_bn": "অ্যানিমেশন ও ভিএফএক্স",
+            "units": [
+              {"en": "GB", "bn": "জিবি"},
+              {"en": "TB", "bn": "টিবি"},
+              {"en": "License", "bn": "লাইসেন্স"},
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Pack", "bn": "প্যাক"},
+              {"en": "Subscription", "bn": "সাবস্ক্রিপশন"},
+              {"en": "Device Unit", "bn": "ডিভাইস ইউনিট"}
+            ]
+          },
+          {
+            "key": "event_management",
+            "name_en": "Event Management",
+            "name_bn": "ইভেন্ট ম্যানেজমেন্ট",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "Pair", "bn": "জোড়া"},
+              {"en": "Box", "bn": "বক্স"},
+              {"en": "Packet", "bn": "প্যাকেট"},
+              {"en": "Bundle", "bn": "বান্ডেল"},
+              {"en": "Roll", "bn": "রোল"},
+              {"en": "Meter", "bn": "মিটার"},
+              {"en": "Kilogram (kg)", "bn": "কেজি"},
+              {"en": "Unit (Audio/Lighting)", "bn": "ইউনিট (অডিও/লাইটিং)"}
+            ]
+          },
+          {
+            "key": "youtube_business",
+            "name_en": "YouTube Business",
+            "name_bn": "ইউটিউব ব্যবসা",
+            "units": [
+              {"en": "Piece", "bn": "পিস"},
+              {"en": "Set", "bn": "সেট"},
+              {"en": "GB", "bn": "জিবি"},
+              {"en": "TB", "bn": "টিবি"},
+              {"en": "Battery Unit", "bn": "ব্যাটারি ইউনিট"},
+              {"en": "Audio Unit", "bn": "অডিও ইউনিট"},
+              {"en": "Lighting Unit", "bn": "লাইটিং ইউনিট"},
+              {"en": "Subscription", "bn": "সাবস্ক্রিপশন"},
+              {"en": "License", "bn": "লাইসেন্স"}
+            ]
+          }
+              
+              
+              
+              
+                     
+            
+        ]
+      },
+
+    {
+      "key": "pharmacy_medicine",
+      "name_en": "Pharmacy & Medicine",
+      "name_bn": "ফার্মেসি ও ঔষধ",
+      "subcategories": [
+        {
+          "key": "pharmacy",
+          "name_en": "Pharmacy",
+          "name_bn": "ফার্মেসি",
+          "units": [
+            {"en": "Piece (Tablet/Capsule)", "bn": "পিস (ট্যাবলেট/ক্যাপসুল)"},
+            {"en": "Strip", "bn": "স্ট্রিপ"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Litre (L)", "bn": "লিটার"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+            {"en": "Tube", "bn": "টিউব"},
+            {"en": "Injection Vial", "bn": "ভায়াল"},
+            {"en": "Inhaler", "bn": "ইনহেলার"},
+            {"en": "Milligram (mg)", "bn": "মিলিগ্রাম"},
+            {"en": "Microgram (mcg)", "bn": "মাইক্রোগ্রাম"},
+            {"en": "International Unit (IU)", "bn": "ইন্টারন্যাশনাল ইউনিট"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gold_jewellery",
+      "name_en": "Gold & Jewellery",
+      "name_bn": "স্বর্ণ ও জুয়েলারি",
+      "subcategories": [
+        {
+          "key": "gold_shop",
+          "name_en": "Jewelry Shop",
+          "name_bn": "গহনার দোকান",
+          "units": [
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Rori/Ana", "bn": "রতি/আনা"},
+            {"en": "Ounce (oz)", "bn": "আউন্স"},
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Set", "bn": "সেট"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tourism_hospitality",
+      "name_en": "Tourism & Hospitality",
+      "name_bn": "পর্যটন ও হসপিটালিটি",
+      "subcategories": [
+        {
+          "key": "hotel",
+          "name_en": "Hotel",
+          "name_bn": "হোটেল",
+          "units": [
+            {"en": "Room Night", "bn": "রুম নাইট"},
+            {"en": "Room", "bn": "রুম"},
+            {"en": "Bed", "bn": "বেড"},
+            {"en": "Guest", "bn": "অতিথি"}
+          ]
+        },
+        {
+          "key": "resort",
+          "name_en": "Resort",
+          "name_bn": "রিসোর্ট",
+          "units": [
+            {"en": "Room Night", "bn": "রুম নাইট"},
+            {"en": "Room", "bn": "রুম"},
+            {"en": "Cottage/Villa", "bn": "কটেজ/ভিলা"},
+            {"en": "Guest", "bn": "অতিথি"}
+          ]
+        },
+        {
+          "key": "guest_house",
+          "name_en": "Guest House",
+          "name_bn": "গেস্ট হাউজ",
+          "units": [
+            {"en": "Room Night", "bn": "রুম নাইট"},
+            {"en": "Room", "bn": "রুম"},
+            {"en": "Bed", "bn": "বেড"},
+            {"en": "Guest", "bn": "অতিথি"}
+          ]
+        },
+        {
+          "key": "travel_agency",
+          "name_en": "Travel Agency",
+          "name_bn": "ট্রাভেল এজেন্সি",
+          "units": [
+            {"en": "Package", "bn": "প্যাকেজ"},
+            {"en": "Ticket", "bn": "টিকিট"},
+            {"en": "Tour", "bn": "ট্যুর"},
+            {"en": "Passenger", "bn": "যাত্রী"}
+          ]
+        },
+        {
+          "key": "tour_guide_service",
+          "name_en": "Tour Guide Service",
+          "name_bn": "ট্যুর গাইড সার্ভিস",
+          "units": [
+            {"en": "Tour", "bn": "ট্যুর"},
+            {"en": "Day", "bn": "দিন"},
+            {"en": "Hour", "bn": "ঘণ্টা"},
+            {"en": "Group", "bn": "দল"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "home_community_services",
+      "name_en": "Home & Community Services",
+      "name_bn": "গৃহ ও কমিউনিটি সেবা",
+      "subcategories": [
+        {
+          "key": "laundry_service",
+          "name_en": "Laundry Service",
+          "name_bn": "লন্ড্রি সার্ভিস",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Dozen", "bn": "ডজন"}
+          ]
+        },
+        {
+          "key": "home_cleaning",
+          "name_en": "Home Cleaning",
+          "name_bn": "বাড়ি পরিষ্কার",
+          "units": [
+            {"en": "Service", "bn": "সার্ভিস"},
+            {"en": "Hour", "bn": "ঘণ্টা"},
+            {"en": "Square Foot (sq.ft)", "bn": "বর্গফুট"}
+          ]
+        },
+        {
+          "key": "pest_control",
+          "name_en": "Pest Control",
+          "name_bn": "পেস্ট কন্ট্রোল",
+          "units": [
+            {"en": "Service", "bn": "সার্ভিস"},
+            {"en": "Square Foot (sq.ft)", "bn": "বর্গফুট"},
+            {"en": "Square Meter (sq.m)", "bn": "বর্গমিটার"}
+          ]
+        },
+        {
+          "key": "security_service",
+          "name_en": "Security Service",
+          "name_bn": "সিকিউরিটি সার্ভিস",
+          "units": [
+            {"en": "Guard", "bn": "গার্ড"},
+            {"en": "Shift", "bn": "শিফট"},
+            {"en": "Month", "bn": "মাস"}
+          ]
+        },
+        {
+          "key": "water_purification",
+          "name_en": "Water Purification",
+          "name_bn": "পানিশোধন",
+          "units": [
+            {"en": "Litre (L)", "bn": "লিটার"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Jar", "bn": "জার"}
+          ]
+        },
+        {
+          "key": "waste_management",
+          "name_en": "Waste Management",
+          "name_bn": "বর্জ্য ব্যবস্থাপনা",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Truck Load", "bn": "ট্রাক লোড"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rural_village_business",
+      "name_en": "Rural & Village-Based Businesses",
+      "name_bn": "গ্রামভিত্তিক ব্যবসা",
+      "subcategories": [
+        {
+          "key": "rice_mill_rural",
+          "name_en": "Rice Mill",
+          "name_bn": "ধান কল",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Bag/Sack", "bn": "বস্তা"}
+          ]
+        },
+        {
+          "key": "flour_mill_rural",
+          "name_en": "Flour Mill",
+          "name_bn": "আটা কল",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Bag/Sack", "bn": "বস্তা"}
+          ]
+        },
+        {
+          "key": "agricultural_machine_rental",
+          "name_en": "Agricultural Machine Rental",
+          "name_bn": "কৃষি যন্ত্র ভাড়া",
+          "units": [
+            {"en": "Hour", "bn": "ঘণ্টা"},
+            {"en": "Day", "bn": "দিন"},
+            {"en": "Acre", "bn": "একর"}
+          ]
+        },
+        {
+          "key": "handloom",
+          "name_en": "Handloom",
+          "name_bn": "হাতের তাঁত",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Meter", "bn": "মিটার"},
+            {"en": "Yard", "bn": "ইয়ার্ড"},
+            {"en": "Set", "bn": "সেট"}
+          ]
+        },
+        {
+          "key": "bamboo_products",
+          "name_en": "Bamboo Products",
+          "name_bn": "বাঁশের পণ্য",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Bundle", "bn": "গুচ্ছ"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"}
+          ]
+        },
+        {
+          "key": "village_pharmacy",
+          "name_en": "Village Pharmacy",
+          "name_bn": "গ্রামীন ফার্মেসি",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Strip", "bn": "স্ট্রিপ"}
+          ]
+        },
+        {
+          "key": "tailoring_shop",
+          "name_en": "Tailoring Shop",
+          "name_bn": "দর্জির দোকান",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Set", "bn": "সেট"},
+            {"en": "Meter", "bn": "মিটার"}
+          ]
+        },
+        {
+          "key": "mobile_servicing",
+          "name_en": "Mobile Servicing",
+          "name_bn": "মোবাইল সার্ভিসিং",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Service", "bn": "সার্ভিস"},
+            {"en": "Hour", "bn": "ঘণ্টা"}
+          ]
+        },
+        {
+          "key": "fish_feed_mill",
+          "name_en": "Fish Feed Mill",
+          "name_bn": "মাছের খাদ্য মিল",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Bag/Sack", "bn": "বস্তা"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "energy_utility",
+      "name_en": "Energy & Utility",
+      "name_bn": "জ্বালানি ও ইউটিলিটি",
+      "subcategories": [
+        {
+          "key": "solar_energy_business",
+          "name_en": "Solar Energy Business",
+          "name_bn": "সোলার ব্যবসা",
+          "units": [
+            {"en": "Panel", "bn": "প্যানেল"},
+            {"en": "Watt (W)", "bn": "ওয়াট"},
+            {"en": "Kilowatt (kW)", "bn": "কিলোওয়াট"},
+            {"en": "System", "bn": "সিস্টেম"}
+          ]
+        },
+        {
+          "key": "generator_sales",
+          "name_en": "Generator Sales",
+          "name_bn": "জেনারেটর বিক্রয়",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Kilovolt-ampere (kVA)", "bn": "কেভিএ"},
+            {"en": "Set", "bn": "সেট"}
+          ]
+        },
+        {
+          "key": "ev_charging_station",
+          "name_en": "EV Charging Station",
+          "name_bn": "ইভি চার্জিং স্টেশন",
+          "units": [
+            {"en": "Kilowatt-hour (kWh)", "bn": "কিলোওয়াট-ঘণ্টা"},
+            {"en": "Session", "bn": "সেশন"},
+            {"en": "Minute", "bn": "মিনিট"},
+            {"en": "Hour", "bn": "ঘণ্টা"}
+          ]
+        },
+        {
+          "key": "water_supply_systems",
+          "name_en": "Water Supply Systems",
+          "name_bn": "পানি সরবরাহ ব্যবস্থা",
+          "units": [
+            {"en": "Litre (L)", "bn": "লিটার"},
+            {"en": "Cubic Meter (m³)", "bn": "কিউবিক মিটার"},
+            {"en": "Connection", "bn": "সংযোগ"},
+            {"en": "Month", "bn": "মাস"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "environmental_social_enterprise",
+      "name_en": "Environmental & Social Enterprise",
+      "name_bn": "পরিবেশ ও সামাজিক ব্যবসা",
+      "subcategories": [
+        {
+          "key": "recycling_plant",
+          "name_en": "Recycling Plant",
+          "name_bn": "রিসাইক্লিং প্ল্যান্ট",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Bag/Sack", "bn": "বস্তা"}
+          ]
+        },
+        {
+          "key": "plastic_waste_management",
+          "name_en": "Plastic Waste Management",
+          "name_bn": "প্লাস্টিক বর্জ্য ব্যবস্থাপনা",
+          "units": [
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Bag/Sack", "bn": "বস্তা"}
+          ]
+        },
+        {
+          "key": "tree_nursery",
+          "name_en": "Tree Nursery",
+          "name_bn": "নার্সারি",
+          "units": [
+            {"en": "Piece (Plant)", "bn": "পিস (চারা)"},
+            {"en": "Pot", "bn": "টব"},
+            {"en": "Bundle", "bn": "গুচ্ছ"}
+          ]
+        },
+        {
+          "key": "ngo_services",
+          "name_en": "NGO Services",
+          "name_bn": "এনজিও সেবা",
+          "units": [
+            {"en": "Project", "bn": "প্রকল্প"},
+            {"en": "Beneficiary", "bn": "উপকারভোগী"},
+            {"en": "Session", "bn": "সেশন"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "emerging_future_tech",
+      "name_en": "Emerging & Future Tech",
+      "name_bn": "উদীয়মান ও ভবিষ্যৎ প্রযুক্তি",
+      "subcategories": [
+        {
+          "key": "drone_services",
+          "name_en": "Drone Services",
+          "name_bn": "ড্রোন সেবা",
+          "units": [
+            {"en": "Flight", "bn": "ফ্লাইট"},
+            {"en": "Hour", "bn": "ঘণ্টা"},
+            {"en": "Project", "bn": "প্রকল্প"}
+          ]
+        },
+        {
+          "key": "iot_solutions",
+          "name_en": "IoT Solutions",
+          "name_bn": "আইওটি সলিউশন",
+          "units": [
+            {"en": "Device", "bn": "ডিভাইস"},
+            {"en": "Sensor", "bn": "সেন্সর"},
+            {"en": "License", "bn": "লাইসেন্স"},
+            {"en": "Subscription", "bn": "সাবস্ক্রিপশন"}
+          ]
+        },
+        {
+          "key": "ai_based_services",
+          "name_en": "AI-Based Services",
+          "name_bn": "কৃত্রিম বুদ্ধিমত্তা ভিত্তিক সেবা",
+          "units": [
+            {"en": "Project", "bn": "প্রকল্প"},
+            {"en": "API Call", "bn": "এপিআই কল"},
+            {"en": "License", "bn": "লাইসেন্স"},
+            {"en": "Subscription", "bn": "সাবস্ক্রিপশন"}
+          ]
+        },
+        {
+          "key": "smart_home_systems",
+          "name_en": "Smart Home Systems",
+          "name_bn": "স্মার্ট হোম সিস্টেম",
+          "units": [
+            {"en": "Set", "bn": "সেট"},
+            {"en": "Device", "bn": "ডিভাইস"},
+            {"en": "Room", "bn": "রুম"},
+            {"en": "House", "bn": "বাড়ি"}
+          ]
+        }
+      ]
+    }
+  ],
+
+  "unit_conversions": {
+    "weight": {
+      "kg_to_g": 1000,
+      "g_to_kg": 0.001,
+      "kg_to_lb": 2.20462,
+      "lb_to_kg": 0.453592,
+      "mg_to_g": 0.001,
+      "g_to_mg": 1000,
+      "mcg_to_mg": 0.001,
+      "mg_to_mcg": 1000,
+      "kg_to_ton": 0.001,
+      "ton_to_kg": 1000,
+      "kg_to_mon": 0.025,
+      "mon_to_kg": 40
+    },
+    "volume": {
+      "litre_to_ml": 1000,
+      "ml_to_litre": 0.001,
+      "litre_to_cubic_meter": 0.001,
+      "cubic_meter_to_litre": 1000
+    },
+    "length": {
+      "meter_to_cm": 100,
+      "cm_to_meter": 0.01,
+      "meter_to_yard": 1.09361,
+      "yard_to_meter": 0.9144,
+      "meter_to_km": 0.001,
+      "km_to_meter": 1000
+    },
+    "area": {
+      "sqft_to_sqm": 0.092903,
+      "sqm_to_sqft": 10.7639,
+      "acre_to_sqm": 4046.8564224,
+      "sqm_to_acre": 0.000247105
+    },
+    "gold": {
+      "ana_to_gram": 0.739,
+      "gram_to_ana": 1.353,
+      "vori_to_gram": 11.824,
+      "gram_to_vori": 0.0846,
+      "ounce_to_gram": 31.1035,
+      "gram_to_ounce": 0.0321507,
+      "carat_to_gram": 0.2,
+      "gram_to_carat": 5
+    },
+    "pharmacy": {
+      "IU_to_mg": 0.001
+    }
+  }
+}

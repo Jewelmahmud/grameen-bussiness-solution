@@ -1,0 +1,2 @@
+docker exec dokan-postgres psql -U dokan_user -d postgres -c "DROP DATABASE IF EXISTS dokan_db"
+docker exec dokan-postgres psql -U dokan_user -d postgres -c "CREATE DATABASE dokan_db WITH OWNER dokan_user"

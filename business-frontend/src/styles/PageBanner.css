@@ -1,0 +1,148 @@
+/* PageBanner.css */
+
+.page-banner {
+    position: relative;
+    height: 400px;
+    max-height: 400px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  .banner-video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)); */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.6979166666666667) 10%, rgba(141,0,255,0.44861694677871145) 100%);
+    z-index: -1;
+  }
+  
+  .banner-content {
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .banner-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .banner-text {
+    flex: 2;
+  }
+  
+  .banner-search {
+    flex: 1;
+  }
+  
+  .banner-title {
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .banner-subtitle {
+    font-weight: 500 !important;
+    margin-bottom: 0.5rem !important;
+    color: #f0f0f0;
+  }
+  
+  .breadcrumbs {
+    margin-top: 1.5rem !important;
+  }
+  
+  .breadcrumb-link {
+    color: #e0e0e0 !important;
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb-current {
+    color: #ffffff !important;
+    font-weight: 500 !important;
+  }
+  
+  .breadcrumb-icon {
+    color: #e0e0e0 !important;
+  }
+  
+  /* Search field styling */
+  .search-field {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+  }
+  
+  .search-field .MuiOutlinedInput-root {
+    border-radius: 30px;
+  }
+  
+  .search-field .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .search-field:hover .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .search-field.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .white-placeholder .MuiInputBase-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 1;
+  }
+  
+  .white-placeholder .MuiInputBase-input {
+    color: white;
+  }
+  
+  .white-icon {
+    color: white !important;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 900px) {
+    .banner-layout {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1.5rem;
+    }
+    
+    .banner-search {
+      width: 100%;
+    }
+    
+    .page-banner {
+      height: auto;
+      padding: 3rem 0;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .banner-title {
+      font-size: 1.75rem !important;
+    }
+    
+    .banner-subtitle {
+      font-size: 1rem !important;
+    }
+  }

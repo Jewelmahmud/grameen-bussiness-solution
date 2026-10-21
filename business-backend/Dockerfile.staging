@@ -1,0 +1,36 @@
+# Staging/production build for Dokan API (multi-stage, minimal image)
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm ci --omit=dev
+
+COPY . .
+RUN chown -R node:node /app
+
+# Final image
+FROM node:20-alpine
+
+RUN apk add --no-cache postgresql-client
+
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV PORT=3040
+
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/src ./src
+COPY --from=builder /app/json ./json
+
+RUN addgroup -g 1001 -S nodejs && adduser -S nodejs -u 1001
+RUN chown -R nodejs:nodejs /app
+USER nodejs
+
+EXPOSE 3040
+
+HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
+  CMD node -e "require('http').get('http://localhost:3040/health', (r) => { process.exit(r.statusCode === 200 ? 0 : 1); })" || exit 1
+
+CMD ["node", "src/index.js"]

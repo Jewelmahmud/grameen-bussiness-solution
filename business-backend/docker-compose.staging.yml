@@ -1,0 +1,77 @@
+# Staging: Dokan API + PostgreSQL
+# Data for Postgres is stored in Docker volumes on the VPS,
+# so it persists when you replace the API container with a new image.
+# When the auth server runs on the same machine, the app joins the auth stack's
+# network (grameen-auth-staging_auth_network) and uses AUTH_SERVER=LOCAL to
+# reach it (e.g. http://auth_server:5001 — set AUTH_SERVER_URL_LOCAL if your auth container has a different hostname).
+#
+# Production: use a separate database (managed or dedicated container).
+
+name: grameen-business-erp-staging
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: dokan-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-dokan_db}
+      POSTGRES_USER: ${POSTGRES_USER:-dokan_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-dokan_password}
+      POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --lc-collate=C --lc-ctype=C"
+    ports:
+      - "${POSTGRES_PORT:-6040}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init-db.sql:/docker-entrypoint-initdb.d/01-init-db.sql:ro
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/02-schema.sql:ro
+    networks:
+      - dokan-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-dokan_user} -d ${POSTGRES_DB:-dokan_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 180s
+    restart: unless-stopped
+
+  app:
+    image: grameen-business-api:staging
+    container_name: dokan-apis
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: staging
+      PORT: 3040
+      # Use container name so we always hit dokan DB (app is on 2 networks; "postgres" can resolve to auth stack's DB)
+      DATABASE_URL: postgresql://${POSTGRES_USER:-dokan_user}:${POSTGRES_PASSWORD:-dokan_password}@dokan-postgres:5432/${POSTGRES_DB:-dokan_db}
+      POSTGRES_HOST: dokan-postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: ${POSTGRES_USER:-dokan_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-dokan_password}
+      POSTGRES_DB: ${POSTGRES_DB:-dokan_db}
+      # Auth server: LOCAL = same-machine auth container (auth_network); STAGING/PROD = external URL
+      AUTH_SERVER: ${AUTH_SERVER:-LOCAL}
+      AUTH_SERVER_URL_STAGING: ${AUTH_SERVER_URL_STAGING:-https://auth.grameenbazaar.com}
+      AUTH_SERVER_URL_PROD: ${AUTH_SERVER_URL_PROD:-https://auth.grameenbazaar.com}
+      AUTH_SERVER_URL_LOCAL: ${AUTH_SERVER_URL_LOCAL:-http://auth_server:5001}
+      AUTH_SERVER_INSECURE_SSL: ${AUTH_SERVER_INSECURE_SSL:-}
+    ports:
+      - "3040:3040"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - dokan-network
+      - auth_network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+
+networks:
+  dokan-network:
+    driver: bridge
+  # Use the same network as the auth server stack so the API can reach it by container name
+  auth_network:
+    external: true
+    name: grameen-auth-staging_auth_network

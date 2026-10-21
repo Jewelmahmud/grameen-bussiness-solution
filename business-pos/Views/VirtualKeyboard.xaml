@@ -1,0 +1,236 @@
+<UserControl x:Class="GrameenPOS.Views.VirtualKeyboard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             d:DesignHeight="600" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Top Part: Alphabet Keys (A-Z) -->
+        <Grid Grid.Row="0" Margin="0,0,0,3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <!-- Row 1: A B C D E F -->
+            <UniformGrid Grid.Row="0" Columns="6" Margin="0,0,0,2">
+                <Button Content="A" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="B" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="C" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="D" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="E" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="F" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+            </UniformGrid>
+            
+            <!-- Row 2: G H I J K L -->
+            <UniformGrid Grid.Row="1" Columns="6" Margin="0,0,0,2">
+                <Button Content="G" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="H" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="I" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="J" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="K" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="L" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+            </UniformGrid>
+            
+            <!-- Row 3: M N O P Q R -->
+            <UniformGrid Grid.Row="2" Columns="6" Margin="0,0,0,2">
+                <Button Content="M" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="N" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="O" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="P" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="Q" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="R" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+            </UniformGrid>
+            
+            <!-- Row 4: S T U V W X -->
+            <UniformGrid Grid.Row="3" Columns="6" Margin="0,0,0,2">
+                <Button Content="S" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="T" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="U" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="V" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="W" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="X" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+            </UniformGrid>
+            
+            <!-- Row 5: Y Z -->
+            <UniformGrid Grid.Row="4" Columns="6" Margin="0,0,0,0">
+                <Button Content="Y" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="Z" Click="LetterButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="14" FontWeight="Bold" Margin="1" Height="40" MinWidth="30"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <!-- Empty spaces for alignment -->
+                <Button Visibility="Collapsed"/>
+                <Button Visibility="Collapsed"/>
+                <Button Visibility="Collapsed"/>
+                <Button Visibility="Collapsed"/>
+            </UniformGrid>
+        </Grid>
+        
+        <!-- Divider -->
+        <Border Grid.Row="1" Height="2" Background="{DynamicResource BorderLightBrush}" Margin="0,3"/>
+        
+        <!-- Bottom Part: Number Pad - All Digits (Same grid style as A-Z) -->
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <!-- Row 1: 1 2 3 -->
+            <UniformGrid Grid.Row="0" Columns="3" Margin="0,0,0,2">
+                <Button Content="1" Click="NumberButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="2" Click="NumberButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="3" Click="NumberButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+            </UniformGrid>
+            
+            <!-- Row 2: 4 5 6 -->
+            <UniformGrid Grid.Row="1" Columns="3" Margin="0,0,0,2">
+                <Button Content="4" Click="NumberButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="5" Click="NumberButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="6" Click="NumberButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+            </UniformGrid>
+            
+            <!-- Row 3: 7 8 9 -->
+            <UniformGrid Grid.Row="2" Columns="3" Margin="0,0,0,2">
+                <Button Content="7" Click="NumberButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="8" Click="NumberButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="9" Click="NumberButton_Click" Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+            </UniformGrid>
+            
+            <!-- Row 4: 0 . Backspace -->
+            <UniformGrid Grid.Row="3" Columns="3" Margin="0,0,0,2">
+                <Button Content="0" Click="NumberButton_Click" 
+                       Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Content="." Click="NumberButton_Click" 
+                       Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontSize="18" FontWeight="Bold" Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}"/>
+                <Button Click="BackspaceButton_Click" 
+                       Style="{StaticResource MaterialDesignRaisedButton}" 
+                       Margin="2" Height="40"
+                       Background="{DynamicResource ButtonDarkBlueBrush}">
+                    <materialDesign:PackIcon Kind="Backspace" FontSize="18"/>
+                </Button>
+            </UniformGrid>
+            
+            <!-- Action Buttons -->
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Click="ClearButton_Click" 
+                       Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontFamily="{DynamicResource BanglaFontFamily}"
+                       FontSize="16" FontWeight="Bold" Margin="2,0,2,0"
+                       Background="{DynamicResource ResetButtonBrush}" 
+                       Foreground="White"
+                       Height="40">
+                    <Button.Content>
+                        <MultiBinding Converter="{StaticResource LocalizationConverter}" ConverterParameter="Reset">
+                            <Binding Path="DataContext.Language" RelativeSource="{RelativeSource AncestorType=UserControl, AncestorLevel=2}" />
+                        </MultiBinding>
+                    </Button.Content>
+                </Button>
+                <Button Grid.Column="1" Click="DoneButton_Click" 
+                       Style="{StaticResource MaterialDesignRaisedButton}" 
+                       FontFamily="{DynamicResource BanglaFontFamily}"
+                       FontSize="16" FontWeight="Bold" Margin="2,0,2,0"
+                       Background="{DynamicResource PrimaryGradientBrush}" 
+                       Foreground="White"
+                       Height="40">
+                    <Button.Content>
+                        <MultiBinding Converter="{StaticResource LocalizationConverter}" ConverterParameter="OK">
+                            <Binding Path="DataContext.Language" RelativeSource="{RelativeSource AncestorType=UserControl, AncestorLevel=2}" />
+                        </MultiBinding>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>
+

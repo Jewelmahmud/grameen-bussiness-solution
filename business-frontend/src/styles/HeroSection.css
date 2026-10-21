@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Hind+Siliguri:wght@300;400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap'); */
+* {
+  /* font-family: 'Hind Siliguri', sans-serif !important; */
+  /* font-family: "Baloo Da 2", sans-serif !important; */
+  /* font-family: "Tiro Bangla", serif !important; */
+}
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -10;
+}
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.6979166666666667) 10%, rgba(141,0,255,0.44861694677871145) 100%);
+    z-index: -5;
+}
+.hero-content {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+}
+.hero-content h2 {
+    text-align: center;
+}
+.hero-content h1 {
+    text-align: center;
+}
+
+.search-container {
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+
+.search-container .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+}
+  
+.search-container .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.search-container .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+}
+  
+.search-container .MuiInputBase-input {
+    color: white !important;
+}
+
+.white-placeholder .MuiInputBase-input::placeholder {
+    color: white !important;
+    opacity: 1 !important;
+}
+  
+.white-icon svg {
+    color: white !important;
+}

@@ -1,0 +1,112 @@
+# ==============================================================================
+# Grameen Business Solution - Root .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Environment Variables & Secrets (CRITICAL: Do NOT commit!)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.env
+*.pem
+*.key
+*.cert
+*.pfx
+
+# ------------------------------------------------------------------------------
+# Dependencies
+# ------------------------------------------------------------------------------
+**/node_modules/
+**/.pnp/
+**/.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------------------------------------------------------
+# Build & Distribution Outputs
+# ------------------------------------------------------------------------------
+**/build/
+**/dist/
+**/out/
+**/.next/
+*.tsbuildinfo
+
+# ------------------------------------------------------------------------------
+# .NET / C# / Visual Studio
+# ------------------------------------------------------------------------------
+**/[Bb]in/
+**/[Oo]bj/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/x64/
+**/x86/
+**/[Ww][Ii][Nn]32/
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+**/publish-single/
+**/publish-single-exe-only/
+**/Output/
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# ------------------------------------------------------------------------------
+# Databases, Local Storage & Dumps
+# ------------------------------------------------------------------------------
+*.db
+*.db-shm
+*.db-wal
+*.dump
+*.backup
+*.sql.gz
+business-backend/*.dump
+
+# ------------------------------------------------------------------------------
+# Logs & Diagnostic Files
+# ------------------------------------------------------------------------------
+**/logs/
+**/*.log
+coverage/
+.nyc_output/
+*.lcov
+
+# ------------------------------------------------------------------------------
+# Operating System & Editor Files
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+**/.idea/
+**/.vscode/
+**/.cursor/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+tmp/
+temp/
+*.tmp
+
+# ------------------------------------------------------------------------------
+# Staging & Packaging Artifacts
+# ------------------------------------------------------------------------------
+*.tar
+*-staging.zip
+business-backend/dokan-api/
+business-backend/auth-server/

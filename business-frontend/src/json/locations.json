@@ -1,0 +1,193 @@
+{
+  "districts": [
+    {
+      "name": "Dhaka",
+      "bn": "ঢাকা",
+      "en": "Dhaka",
+      "upazilas": [
+        {
+          "bn": "ঢাকা উত্তর",
+          "en": "Dhaka North",
+          "bazars": [
+            { "bn": "মিরপুর বাজার", "en": "Mirpur Bazar" },
+            { "bn": "উত্তরা বাজার", "en": "Uttara Bazar" },
+            { "bn": "বনানী বাজার", "en": "Banani Bazar" }
+          ]
+        },
+        {
+          "bn": "ঢাকা দক্ষিণ",
+          "en": "Dhaka South",
+          "bazars": [
+            { "bn": "নিউ মার্কেট", "en": "New Market" },
+            { "bn": "শ্যামবাজার", "en": "Shyam Bazar" },
+            { "bn": "কমলাপুর বাজার", "en": "Kamalapur Bazar" }
+          ]
+        },
+        {
+          "bn": "সাভার",
+          "en": "Savar",
+          "bazars": [
+            { "bn": "সাভার বাজার", "en": "Savar Bazar" },
+            { "bn": "হেমায়েতপুর বাজার", "en": "Hemayetpur Bazar" },
+            { "bn": "গেন্ডা বাজার", "en": "Genda Bazar" }
+          ]
+        },
+        {
+          "bn": "কেরানীগঞ্জ",
+          "en": "Keraniganj",
+          "bazars": [
+            { "bn": "কেরানীগঞ্জ বাজার", "en": "Keraniganj Bazar" },
+            { "bn": "জিনজিরা বাজার", "en": "Zinzira Bazar" },
+            { "bn": "কালাটিয়া বাজার", "en": "Kalatia Bazar" }
+          ]
+        },
+        {
+          "bn": "দোহার",
+          "en": "Dohar",
+          "bazars": [
+            { "bn": "দোহার বাজার", "en": "Dohar Bazar" },
+            { "bn": "জয়পাড়া বাজার", "en": "Joypara Bazar" },
+            { "bn": "পালামগঞ্জ বাজার", "en": "Palamganj Bazar" }
+          ]
+        },
+        {
+          "bn": "নবাবগঞ্জ",
+          "en": "Nawabganj",
+          "bazars": [
+            { "bn": "নবাবগঞ্জ বাজার", "en": "Nawabganj Bazar" },
+            { "bn": "কলাকোপা বাজার", "en": "Kalakopa Bazar" },
+            { "bn": "বান্দুরা বাজার", "en": "Bandura Bazar" }
+          ]
+        },
+        {
+          "bn": "সাবরাং",
+          "en": "Sabrang",
+          "bazars": [
+            { "bn": "সাবরাং বাজার", "en": "Sabrang Bazar" },
+            { "bn": "টেকনাফ বাজার", "en": "Teknaf Bazar" },
+            { "bn": "হ্নীলা বাজার", "en": "Hnila Bazar" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gazipur",
+      "bn": "গাজীপুর",
+      "en": "Gazipur",
+      "upazilas": [
+        {
+          "bn": "গাজীপুর সদর",
+          "en": "Gazipur Sadar",
+          "bazars": [
+            { "bn": "জয়দেবপুর বাজার", "en": "Joydebpur Bazar" },
+            { "bn": "চান্দনা বাজার", "en": "Chandna Bazar" },
+            { "bn": "কোনাবাড়ী বাজার", "en": "Konabari Bazar" }
+          ]
+        },
+        {
+          "bn": "কালীগঞ্জ",
+          "en": "Kaliganj",
+          "bazars": [
+            { "bn": "কালীগঞ্জ বাজার", "en": "Kaliganj Bazar" },
+            { "bn": "তুমুলিয়া বাজার", "en": "Tumulia Bazar" },
+            { "bn": "বাহাদুরশাহী বাজার", "en": "Bahadursahi Bazar" }
+          ]
+        },
+        {
+          "bn": "কালিয়াকৈর",
+          "en": "Kaliakair",
+          "bazars": [
+            { "bn": "কালিয়াকৈর বাজার", "en": "Kaliakair Bazar" },
+            { "bn": "মৌচাক বাজার", "en": "Mouchak Bazar" },
+            { "bn": "শ্রীফলতলী বাজার", "en": "Sreefaltali Bazar" }
+          ]
+        },
+        {
+          "bn": "কাপাসিয়া",
+          "en": "Kapasia",
+          "bazars": [
+            { "bn": "কাপাসিয়া বাজার", "en": "Kapasia Bazar" },
+            { "bn": "টোক বাজার", "en": "Tok Bazar" },
+            { "bn": "রায়েদ বাজার", "en": "Rayed Bazar" }
+          ]
+        },
+        {
+          "bn": "শ্রীপুর",
+          "en": "Sreepur",
+          "bazars": [
+            { "bn": "শ্রীপুর বাজার", "en": "Sreepur Bazar" },
+            { "bn": "মাওনা বাজার", "en": "Mawna Bazar" },
+            { "bn": "বারমী বাজার", "en": "Barmi Bazar" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Natore",
+      "bn": "নাটোর",
+      "en": "Natore",
+      "upazilas": [
+        {
+          "bn": "গুরুদাসপুর",
+          "en": "Gurudaspur",
+          "bazars": [
+            { "bn": "চাচকৈড় বাজার", "en": "Chachkoir Bazar" },
+            { "bn": "গুরুদাসপুর বাজার", "en": "Gurudaspur Bazar" },
+            { "bn": "খুবজিপুর বাজার", "en": "Khubjipur Bazar" },
+            { "bn": "নাজিরপুর বাজার", "en": "Nazirpur Bazar" },
+            { "bn": "কাছিকাটা বাজার", "en": "Kachikata Bazar" },
+            { "bn": "যোগেন্দ্রনগর বাজার", "en": "Jogendronagar Bazar" },
+            { "bn": "মশিন্দা বাজার", "en": "Moshindha Bazar" },
+            { "bn": "সাবগাড়ি বাজার", "en": "Sabgari Bazar" }
+          ]
+        },
+        {
+          "bn": "নাটোর সদর",
+          "en": "Natore Sadar",
+          "bazars": [
+            { "bn": "নাটোর বাজার", "en": "Natore Bazar" },
+            { "bn": "আলাইপুর বাজার", "en": "Alaipur Bazar" },
+            { "bn": "স্টেশন বাজার", "en": "Station Bazar" }
+          ]
+        },
+        {
+          "bn": "সিংড়া",
+          "en": "Singra",
+          "bazars": [
+            { "bn": "সিংড়া বাজার", "en": "Singra Bazar" },
+            { "bn": "চৌগ্রাম বাজার", "en": "Chowgram Bazar" },
+            { "bn": "কলম বাজার", "en": "Kalam Bazar" },
+            { "bn": "বিলদোহর বাজার", "en": "Bildohor Bazar" }
+          ]
+        },
+        {
+          "bn": "বড়াইগ্রাম",
+          "en": "Baraigram",
+          "bazars": [
+            { "bn": "বড়াইগ্রাম বাজার", "en": "Baraigram Bazar" },
+            { "bn": "বনপাড়া বাজার", "en": "Banpara Bazar" },
+            { "bn": "জোয়াড়ি বাজার", "en": "Joari Bazar" }
+          ]
+        },
+        {
+          "bn": "লালপুর",
+          "en": "Lalpur",
+          "bazars": [
+            { "bn": "লালপুর বাজার", "en": "Lalpur Bazar" },
+            { "bn": "গোপালপুর বাজার", "en": "Gopalpur Bazar" },
+            { "bn": "ইশ্বরদী বাজার", "en": "Ishwardi Bazar" }
+          ]
+        },
+        {
+          "bn": "বাগাতিপাড়া",
+          "en": "Bagatipara",
+          "bazars": [
+            { "bn": "বাগাতিপাড়া বাজার", "en": "Bagatipara Bazar" },
+            { "bn": "পাটপাড়া বাজার", "en": "Patpara Bazar" },
+            { "bn": "দয়ারামপুর বাজার", "en": "Dayarampur Bazar" }
+          ]
+        }
+      ]
+    }
+  ]
+}

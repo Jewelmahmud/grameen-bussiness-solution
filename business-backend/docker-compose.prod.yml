@@ -1,0 +1,63 @@
+name: grameen-business-erp
+version: '3.8'
+
+# Production Docker Compose configuration
+# Usage: docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+
+services:
+  postgres:
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    # Remove port mapping in production (use internal network only)
+    ports: []
+    # Or use specific host binding for security
+    # ports:
+    #   - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      # Remove init scripts in production (already initialized)
+      # - ./docker/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql:ro
+    # Add restart policy
+    restart: always
+    # Add resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '1'
+          memory: 1G
+
+  app:
+    environment:
+      NODE_ENV: production
+    # Remove volume mounts in production (use built image)
+    volumes: []
+    # Or keep only necessary volumes
+    # volumes:
+    #   - ./logs:/app/logs
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    # Add health check
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3040/health', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Remove pgAdmin in production (security risk)
+  pgadmin:
+    profiles:
+      - disabled
+

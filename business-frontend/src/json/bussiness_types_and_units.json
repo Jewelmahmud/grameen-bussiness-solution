@@ -1,0 +1,1414 @@
+{
+  "business_categories": [
+    {
+      "key": "general_common",
+      "name_en": "General/Common Units",
+      "name_bn": "সাধারণ/কমন ইউনিট",
+      "subcategories": [
+        {
+          "key": "common_units",
+          "name_en": "Common Units",
+          "name_bn": "কমন ইউনিট (সকল ব্যবসার জন্য প্রজেয্য)",
+          "units": [
+            {"en": "Piece", "bn": "পিস"},
+            {"en": "Kilogram (kg)", "bn": "কেজি"},
+            {"en": "Gram (g)", "bn": "গ্রাম"},
+            {"en": "Milligram (mg)", "bn": "মিলিগ্রাম"},
+            {"en": "Liter (L)", "bn": "লিটার"},
+            {"en": "Millilitre (ml)", "bn": "মিলিলিটার"},
+            {"en": "Dozen", "bn": "ডজন"},
+            {"en": "Box", "bn": "বক্স"},
+            {"en": "Carton", "bn": "কার্টন"},
+            {"en": "Packet", "bn": "প্যাকেট"},
+            {"en": "Bag/Sack", "bn": "বস্তা"},
+            {"en": "Ton", "bn": "টন"},
+            {"en": "Quintal", "bn": "কুইন্টাল"},
+            {"en": "Set", "bn": "সেট"},
+            {"en": "Bottle", "bn": "বোতল"},
+            {"en": "Jar", "bn": "জার"},
+            {"en": "Can", "bn": "ক্যান"},
+            {"en": "Crate", "bn": "ক্রেট"},
+            {"en": "Tray", "bn": "ট্রে"},
+            {"en": "Bundle", "bn": "গুচ্ছ"},
+            {"en": "Meter (m)", "bn": "মিটার"},
+            {"en": "Square Meter (sqm)", "bn": "বর্গমিটার"},
+            {"en": "Square Foot (sqft)", "bn": "বর্গফুট"},
+            {"en": "Cubic Meter (m³)", "bn": "কিউবিক মিটার"},
+            {"en": "Kilometer (km)", "bn": "কিলোমিটার"},
+            {"en": "Gallon", "bn": "গ্যালন"},
+            {"en": "Pouch", "bn": "পাউচ"},
+            {"en": "Tetra Pak", "bn": "টেট্রা প্যাক"},
+            {"en": "Case", "bn": "কেস"},
+            {"en": "Pack", "bn": "প্যাক"},
+            {"en": "Roll", "bn": "রোল"},
+            {"en": "Pair", "bn": "জোড়া"},
+            {"en": "Hour", "bn": "ঘণ্টা"},
+            {"en": "Day", "bn": "দিন"},
+            {"en": "Month", "bn": "মাস"},
+            {"en": "Service", "bn": "সার্ভিস"},
+            {"en": "Project", "bn": "প্রকল্প"},
+            {"en": "License", "bn": "লাইসেন্স"},
+            {"en": "Subscription", "bn": "সাবস্ক্রিপশন"},
+            {"en": "User", "bn": "ব্যবহারকারী"},
+            {"en": "Device", "bn": "ডিভাইস"},
+            {"en": "GB", "bn": "জিবি"},
+            {"en": "TB", "bn": "টিবি"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "agriculture_agro",
+      "name_en": "Agriculture & Agro-Based Business",
+      "name_bn": "কৃষি ও কৃষি-ভিত্তিক ব্যবসা",
+      "subcategories": [
+        {
+          "key": "crop_farming",
+          "name_en": "Crop Farming",
+          "name_bn": "ফসল ব্যবসা/চাষ",
+          "units": [
+            {"en": "Mon", "bn": "মণ"},
+            {"en": "Acre", "bn": "একর"},
+            {"en": "Hectare", "bn": "হেক্টর"},
+            {"en": "Bigha", "bn": "বিঘা"},
+            {"en": "Katha", "bn": "কাঠা"}
+          ]
+        },
+        {
+          "key": "vegetable_farming",
+          "name_en": "Vegetable Farming",
+          "name_bn": "সবজি ব্যবসা/চাষ",
+          "units": [
+            {"en": "Bunch", "bn": "গুচ্ছ"}
+          ]
+        },
+        {
+          "key": "fruit_orchard",
+          "name_en": "Fruit Orchard",
+          "name_bn": "ফল বাগান/ব্যবসা",
+          "units": []
+        },
+        {
+          "key": "dairy_farm",
+          "name_en": "Dairy Farm",
+          "name_bn": "ডেইরি ফার্ম",
+          "units": []
+        },
+        {
+          "key": "poultry_farm",
+          "name_en": "Poultry Farm",
+          "name_bn": "পোল্ট্রি ফার্ম",
+          "units": []
+        },
+        {
+          "key": "fish_farming",
+          "name_en": "Fish Farming",
+          "name_bn": "মাছ খামার/ব্যবসা",
+          "units": [
+            {"en": "Mon", "bn": "মণ"}
+          ]
+        },
+        {
+          "key": "shrimp_farming",
+          "name_en": "Shrimp Farming",
+          "name_bn": "চিংড়ি ব্যবসা/চাষ",
+          "units": []
+        },
+        {
+          "key": "mushroom_farming",
+          "name_en": "Mushroom Farming",
+          "name_bn": "মাশরুম ব্যবসা/চাষ",
+          "units": []
+        },
+        {
+          "key": "agro_processing",
+          "name_en": "Agro Processing",
+          "name_bn": "এগ্রো প্রসেসিং",
+          "units": []
+        },
+        {
+          "key": "rice_mill",
+          "name_en": "Rice Mill",
+          "name_bn": "ধান/চাল মিল",
+          "units": [
+            {"en": "Mon", "bn": "মণ"}
+          ]
+        },
+        {
+          "key": "flour_mill",
+          "name_en": "Flour Mill",
+          "name_bn": "আটা/ময়দা মিল",
+          "units": []
+        },
+        {
+          "key": "cold_storage",
+          "name_en": "Cold Storage",
+          "name_bn": "কোল্ড স্টোরেজ",
+          "units": []
+        },
+        {
+          "key": "fertilizer_business",
+          "name_en": "Fertilizer Business",
+          "name_bn": "সার ব্যবসা",
+          "units": []
+        },
+        {
+          "key": "pesticide_sales",
+          "name_en": "Pesticide Sales",
+          "name_bn": "কীটনাশক ব্যবসা",
+          "units": [
+            {"en": "Spray Bottle", "bn": "স্প্রে বোতল"},
+            {"en": "Drum", "bn": "ড্রাম"}
+          ]
+        },
+        {
+          "key": "seed_business",
+          "name_en": "Seed Business",
+          "name_bn": "বীজ ব্যবসা",
+          "units": []
+        }
+      ]
+    },
+    {
+      "key": "livestock_animal",
+      "name_en": "Livestock & Animal-Based Business",
+      "name_bn": "পশুপালন ও প্রাণী-ভিত্তিক ব্যবসা",
+      "subcategories": [
+        {
+          "key": "dairy_milk",
+          "name_en": "Dairy Milk Supply",
+          "name_bn": "দুধ সরবরাহ ব্যবসা",
+          "units": []
+        },
+        {
+          "key": "beef_fattening",
+          "name_en": "Beef Fattening",
+          "name_bn": "গরু মোটাতাজাকরণ",
+          "units": [
+            {"en": "Mon", "bn": "মণ"}
+          ]
+        },
+        {
+          "key": "goat_farming",
+          "name_en": "Goat Farming",
+          "name_bn": "ছাগল ফার্ম",
+          "units": [
+            {"en": "Mon", "bn": "মণ"}
+          ]
+        },
+        {
+          "key": "sheep_farming",
+          "name_en": "Sheep Farming",
+          "name_bn": "ভেড়া ফার্ম",
+          "units": [
+            {"en": "Mon", "bn": "মণ"}
+          ]
+        },
+        {
+          "key": "duck_farming",
+          "name_en": "Duck Farming",
+          "name_bn": "হাঁস ফার্ম",
+          "units": []
+        },
+        {
+          "key": "quail_farming",
+          "name_en": "Quail Farming",
+          "name_bn": "কোয়েল পাখি ফার্ম",
+          "units": []
+        },
+        {
+          "key": "pigeon_farming",
+          "name_en": "Pigeon Farming",
+          "name_bn": "কবুতর ফার্ম",
+          "units": []
+        },
+        {
+          "key": "fish_feed_production",
+          "name_en": "Fish Feed Production",
+          "name_bn": "মাছের খাদ্য উৎপাদন",
+          "units": []
+        },
+        {
+          "key": "cattle_feed_production",
+          "name_en": "Cattle Feed Production",
+          "name_bn": "গবাদি খাদ্য উৎপাদন",
+          "units": []
+        },
+        {
+          "key": "honey_beekeeping",
+          "name_en": "Honey & Beekeeping",
+          "name_bn": "মৌমাছি পালন ও মধু উৎপাদন",
+          "units": []
+        },
+        {
+          "key": "leather_processing",
+          "name_en": "Leather Processing",
+          "name_bn": "চামড়া প্রক্রিয়াজাতকরণ",
+          "units": [
+            {"en": "Hide/Skin", "bn": "চামড়া"}
+          ]
+        }
+      ]
+    },
+    {
+        "key": "food_beverage",
+        "name_en": "Food & Beverage",
+        "name_bn": "খাদ্য ও পানীয়",
+        "subcategories": [
+            {
+            "key": "restaurant",
+            "name_en": "Restaurant",
+            "name_bn": "রেস্টুরেন্ট",
+            "units": [
+                {"en": "Plate", "bn": "প্লেট"},
+                {"en": "Serving", "bn": "সার্ভিং"},
+                {"en": "Portion", "bn": "পোর্শন"},
+                {"en": "Bowl", "bn": "বাটি"},
+                {"en": "Set/Combo", "bn": "সেট/কম্বো"},
+                {"en": "Glass", "bn": "গ্লাস"},
+                {"en": "Cup", "bn": "কাপ"},
+                {"en": "Packet (Spice)", "bn": "প্যাকেট (মসলা)"}
+            ]
+            },
+            {
+            "key": "cafe",
+            "name_en": "Café",
+            "name_bn": "ক্যাফে",
+            "units": [
+                {"en": "Cup", "bn": "কাপ"},
+                {"en": "Mug", "bn": "মগ"},
+                {"en": "Glass", "bn": "গ্লাস"},
+                {"en": "Slice", "bn": "টুকরা"},
+                {"en": "Set/Combo", "bn": "সেট/কম্বো"},
+                {"en": "Sachet", "bn": "স্যাশে"},
+                {"en": "Stick", "bn": "স্টিক"},
+                {"en": "Portion", "bn": "পোর্শন"},
+                {"en": "Serving", "bn": "সার্ভিং"}
+            ]
+            },
+            {
+            "key": "bakery",
+            "name_en": "Bakery",
+            "name_bn": "বেকারি",
+            "units": [
+                {"en": "Slice", "bn": "টুকরা"},
+                {"en": "Set/Combo", "bn": "সেট/কম্বো"}
+            ]
+            },
+            {
+            "key": "street_food_shop",
+            "name_en": "Street Food Shop",
+            "name_bn": "স্ট্রিট ফুড দোকান",
+            "units": [
+                {"en": "Plate", "bn": "প্লেট"},
+                {"en": "Serving", "bn": "সার্ভিং"},
+                {"en": "Portion", "bn": "পোর্শন"},
+                {"en": "Set/Combo", "bn": "সেট/কম্বো"}
+            ]
+            },
+            {
+            "key": "catering_service",
+            "name_en": "Catering Service",
+            "name_bn": "ক্যাটারিং সার্ভিস",
+            "units": [
+                {"en": "Plate", "bn": "প্লেট"},
+                {"en": "Person", "bn": "ব্যক্তি"},
+                {"en": "Serving", "bn": "সার্ভিং"},
+                {"en": "Portion", "bn": "পোর্শন"},
+                {"en": "Set/Combo", "bn": "সেট/কম্বো"}
+            ]
+            },
+            {
+            "key": "ice_cream_factory",
+            "name_en": "Ice Cream Factory",
+            "name_bn": "আইসক্রিম কারখানা",
+            "units": [
+                {"en": "Cone", "bn": "কোন"},
+                {"en": "Cup", "bn": "কাপ"},
+                {"en": "Tub", "bn": "টব"}
+            ]
+            },
+            {
+            "key": "snack_chips_factory",
+            "name_en": "Snack/Chips Factory",
+            "name_bn": "স্ন্যাকস/চিপস কারখানা",
+            "units": []
+            },
+            {
+            "key": "pickle_manufacturing",
+            "name_en": "Pickle Manufacturing",
+            "name_bn": "আচার উৎপাদন",
+            "units": []
+            },
+            {
+            "key": "spice_grinding",
+            "name_en": "Spice Grinding",
+            "name_bn": "মসলা পেষাই",
+            "units": []
+            },
+            {
+            "key": "water_bottling",
+            "name_en": "Water Bottling",
+            "name_bn": "মিনারেল ওয়াটার উৎপাদন",
+            "units": [
+                {"en": "Drum", "bn": "ড্রাম"}
+            ]
+            },
+            {
+            "key": "juice_production",
+            "name_en": "Juice Production",
+            "name_bn": "জুস উৎপাদন",
+            "units": [
+                {"en": "Glass", "bn": "গ্লাস"}
+            ]
+            }
+        ]
+    },
+    {
+        "key": "retail_wholesale",
+        "name_en": "Retail & Wholesale Trading",
+        "name_bn": "খুচরা ও পাইকারি ব্যবসা",
+        "subcategories": [
+          {
+            "key": "grocery_shop",
+            "name_en": "Grocery Shop",
+            "name_bn": "মুদি দোকান",
+            "units": []
+          },
+          {
+            "key": "super_shop",
+            "name_en": "Super Shop",
+            "name_bn": "সুপারশপ",
+            "units": []
+          },
+          {
+            "key": "clothing_store",
+            "name_en": "Clothing Store",
+            "name_bn": "কাপড়ের দোকান",
+            "units": []
+          },
+          {
+            "key": "electronics_shop",
+            "name_en": "Electronics Shop",
+            "name_bn": "ইলেকট্রনিক্স দোকান",
+            "units": []
+          },
+          {
+            "key": "mobile_shop",
+            "name_en": "Mobile Shop",
+            "name_bn": "মোবাইল দোকান",
+            "units": []
+          },
+          {
+            "key": "cosmetics_shop",
+            "name_en": "Cosmetics Shop",
+            "name_bn": "কসমেটিকস দোকান",
+            "units": []
+          },
+          {
+            "key": "hardware_store",
+            "name_en": "Hardware Store",
+            "name_bn": "হার্ডওয়্যার দোকান",
+            "units": []
+          },
+          {
+            "key": "stationery_shop",
+            "name_en": "Stationery Shop",
+            "name_bn": "স্টেশনারি দোকান",
+            "units": []
+          },
+          {
+            "key": "bookstore",
+            "name_en": "Bookstore",
+            "name_bn": "বইয়ের দোকান",
+            "units": []
+          },
+          {
+            "key": "furniture_shop",
+            "name_en": "Furniture Shop",
+            "name_bn": "ফার্নিচার দোকান",
+            "units": []
+          },
+          {
+            "key": "wholesale_trader",
+            "name_en": "Wholesale Trader",
+            "name_bn": "পাইকারি ব্যবসা",
+            "units": []
+          }
+        ]
+    },
+    {
+        "key": "ecommerce_online",
+        "name_en": "E-Commerce & Online Business",
+        "name_bn": "ই-কমার্স ও অনলাইন ব্যবসা",
+        "subcategories": [
+          {
+            "key": "online_store",
+            "name_en": "Online Store",
+            "name_bn": "অনলাইন দোকান",
+            "units": []
+          },
+          {
+            "key": "multivendor_marketplace",
+            "name_en": "Multivendor Marketplace",
+            "name_bn": "মাল্টিভেন্ডর মার্কেটপ্লেস",
+            "units": []
+          },
+          {
+            "key": "f_commerce",
+            "name_en": "F-Commerce",
+            "name_bn": "এফ-কমার্স",
+            "units": []
+          },
+          {
+            "key": "dropshipping",
+            "name_en": "Dropshipping",
+            "name_bn": "ড্রপশিপিং",
+            "units": []
+          },
+          {
+            "key": "print_on_demand",
+            "name_en": "Print on Demand",
+            "name_bn": "প্রিন্ট-অন-ডিমান্ড",
+            "units": []
+          },
+          {
+            "key": "digital_products",
+            "name_en": "Digital Products",
+            "name_bn": "ডিজিটাল পণ্য",
+            "units": [
+              {"en": "Download", "bn": "ডাউনলোড"}
+            ]
+          },
+          {
+            "key": "online_grocery_delivery",
+            "name_en": "Online Grocery Delivery",
+            "name_bn": "অনলাইন মুদি ডেলিভারি",
+            "units": []
+          },
+          {
+            "key": "food_delivery",
+            "name_en": "Food Delivery",
+            "name_bn": "ফুড ডেলিভারি",
+            "units": [
+              {"en": "Plate", "bn": "প্লেট"}
+            ]
+          },
+          {
+            "key": "online_pharmacy",
+            "name_en": "Online Pharmacy",
+            "name_bn": "অনলাইন ফার্মেসি",
+            "units": [
+              {"en": "Tablet", "bn": "ট্যাবলেট"},
+              {"en": "Capsule", "bn": "ক্যাপসুল"}
+            ]
+          },
+          {
+            "key": "e_learning_platform",
+            "name_en": "E-Learning Platform",
+            "name_bn": "ই-লার্নিং প্ল্যাটফর্ম",
+            "units": [
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Module", "bn": "মডিউল"},
+              {"en": "Lesson", "bn": "পাঠ"}
+            ]
+          }
+        ]
+    },
+    {
+        "key": "transport_mobility",
+        "name_en": "Transport & Mobility",
+        "name_bn": "পরিবহন ও চলাচল",
+        "subcategories": [
+          {
+            "key": "ride_sharing",
+            "name_en": "Ride Sharing",
+            "name_bn": "রাইড শেয়ারিং",
+            "units": [
+              {"en": "Ride", "bn": "রাইড"},
+              {"en": "Passenger", "bn": "যাত্রী"}
+            ]
+          },
+          {
+            "key": "truck_transport",
+            "name_en": "Truck Transport",
+            "name_bn": "ট্রাক পরিবহন",
+            "units": []
+          },
+          {
+            "key": "bus_service",
+            "name_en": "Bus Service",
+            "name_bn": "বাস সার্ভিস",
+            "units": [
+              {"en": "Seat", "bn": "সিট"},
+              {"en": "Passenger", "bn": "যাত্রী"},
+              {"en": "Trip", "bn": "ট্রিপ"}
+            ]
+          },
+          {
+            "key": "human_hauler",
+            "name_en": "Human Hauler",
+            "name_bn": "হিউম্যান হলার",
+            "units": [
+              {"en": "Passenger", "bn": "যাত্রী"},
+              {"en": "Trip", "bn": "ট্রিপ"}
+            ]
+          },
+          {
+            "key": "auto_rickshaw",
+            "name_en": "Auto Rickshaw Business",
+            "name_bn": "অটোরিকশা ব্যবসা",
+            "units": [
+              {"en": "Ride", "bn": "রাইড"},
+              {"en": "Passenger", "bn": "যাত্রী"}
+            ]
+          },
+          {
+            "key": "courier_service",
+            "name_en": "Courier Service",
+            "name_bn": "কুরিয়ার সার্ভিস",
+            "units": [
+              {"en": "Package", "bn": "প্যাকেজ"},
+              {"en": "Parcel", "bn": "পার্সেল"},
+              {"en": "Delivery", "bn": "ডেলিভারি"}
+            ]
+          },
+          {
+            "key": "cargo_shipping",
+            "name_en": "Cargo Shipping",
+            "name_bn": "কার্গো শিপিং",
+            "units": [
+              {"en": "Container", "bn": "কন্টেইনার"}
+            ]
+          }
+        ]
+    },   
+    {
+        "key": "manufacturing_industry",
+        "name_en": "Manufacturing & Industry",
+        "name_bn": "উৎপাদন ও শিল্প",
+        "subcategories": [
+          {
+            "key": "garments_rmg",
+            "name_en": "Garments (RMG)",
+            "name_bn": "গার্মেন্টস",
+            "units": []
+          },
+          {
+            "key": "textile_mill",
+            "name_en": "Textile Mill",
+            "name_bn": "টেক্সটাইল মিল",
+            "units": []
+          },
+          {
+            "key": "plastic_factory",
+            "name_en": "Plastic Factory",
+            "name_bn": "প্লাস্টিক কারখানা",
+            "units": []
+          },
+          {
+            "key": "cement_factory",
+            "name_en": "Cement Factory",
+            "name_bn": "সিমেন্ট কারখানা",
+            "units": []
+          },
+          {
+            "key": "steel_rod_factory",
+            "name_en": "Steel & Rod Factory",
+            "name_bn": "স্টিল/রড কারখানা",
+            "units": []
+          },
+          {
+            "key": "brickfield",
+            "name_en": "Brickfield",
+            "name_bn": "ইটভাটা",
+            "units": [
+              {"en": "Thousand Pieces", "bn": "হাজার পিস"}
+            ]
+          },
+          {
+            "key": "pharmaceuticals",
+            "name_en": "Pharmaceuticals",
+            "name_bn": "ফার্মাসিউটিক্যালস",
+            "units": [
+              {"en": "Tablet", "bn": "ট্যাবলেট"},
+              {"en": "Capsule", "bn": "ক্যাপসুল"}
+            ]
+          },
+          {
+            "key": "electronics_assembly",
+            "name_en": "Electronics Assembly",
+            "name_bn": "ইলেকট্রনিক্স অ্যাসেম্বলি",
+            "units": []
+          },
+          {
+            "key": "furniture_manufacturing",
+            "name_en": "Furniture Manufacturing",
+            "name_bn": "ফার্নিচার উৎপাদন",
+            "units": []
+          },
+          {
+            "key": "packaging_industry",
+            "name_en": "Packaging Industry",
+            "name_bn": "প্যাকেজিং শিল্প",
+            "units": []
+          }
+        ]
+    },
+    {
+        "key": "construction_real_estate",
+        "name_en": "Construction & Real Estate",
+        "name_bn": "নির্মাণ ও রিয়েল এস্টেট",
+        "subcategories": [
+          {
+            "key": "real_estate_development",
+            "name_en": "Real Estate Development",
+            "name_bn": "রিয়েল এস্টেট",
+            "units": [
+              {"en": "Plot", "bn": "প্লট"},
+              {"en": "Building", "bn": "ভবন"}
+            ]
+          },
+          {
+            "key": "construction_firm",
+            "name_en": "Construction Firm",
+            "name_bn": "নির্মাণ প্রতিষ্ঠান",
+            "units": []
+          },
+          {
+            "key": "interior_design",
+            "name_en": "Interior Design",
+            "name_bn": "ইন্টেরিয়র ডিজাইন",
+            "units": [
+              {"en": "Room", "bn": "রুম"}
+            ]
+          },
+          {
+            "key": "architecture_firm",
+            "name_en": "Architecture Firm",
+            "name_bn": "আর্কিটেকচার ফার্ম",
+            "units": [
+              {"en": "Plan", "bn": "পরিকল্পনা"},
+              {"en": "Building", "bn": "ভবন"}
+            ]
+          },
+          {
+            "key": "building_materials_supply",
+            "name_en": "Building Materials Supply",
+            "name_bn": "নির্মাণ সামগ্রী সরবরাহ",
+            "units": []
+          }
+        ]
+    },
+    {
+        "key": "it_technology",
+        "name_en": "IT & Technology",
+        "name_bn": "আইটি ও প্রযুক্তি",
+        "subcategories": [
+          {
+            "key": "software_company",
+            "name_en": "Software Company",
+            "name_bn": "সফটওয়্যার কোম্পানি",
+            "units": []
+          },
+          {
+            "key": "web_development",
+            "name_en": "Web Development",
+            "name_bn": "ওয়েব ডেভেলপমেন্ট",
+            "units": [
+              {"en": "Page", "bn": "পেজ"},
+              {"en": "Module", "bn": "মডিউল"}
+            ]
+          },
+          {
+            "key": "app_development",
+            "name_en": "App Development",
+            "name_bn": "অ্যাপ ডেভেলপমেন্ট",
+            "units": [
+              {"en": "Module", "bn": "মডিউল"}
+            ]
+          },
+          {
+            "key": "ui_ux_design",
+            "name_en": "UI/UX Design",
+            "name_bn": "UI/UX ডিজাইন",
+            "units": [
+              {"en": "Page", "bn": "পেজ"},
+              {"en": "Screen", "bn": "স্ক্রিন"},
+              {"en": "Template", "bn": "টেমপ্লেট"}
+            ]
+          },
+          {
+            "key": "cybersecurity",
+            "name_en": "Cybersecurity",
+            "name_bn": "সাইবার সিকিউরিটি",
+            "units": [
+              {"en": "System", "bn": "সিস্টেম"}
+            ]
+          },
+          {
+            "key": "it_training_center",
+            "name_en": "IT Training Center",
+            "name_bn": "আইটি ট্রেনিং সেন্টার",
+            "units": [
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Batch", "bn": "ব্যাচ"},
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Module", "bn": "মডিউল"}
+            ]
+          },
+          {
+            "key": "bpo_service",
+            "name_en": "BPO Service",
+            "name_bn": "বিপিও সার্ভিস",
+            "units": [
+              {"en": "Agent", "bn": "এজেন্ট"},
+              {"en": "Task", "bn": "টাস্ক"}
+            ]
+          },
+          {
+            "key": "cctv_security",
+            "name_en": "CCTV & Security",
+            "name_bn": "সিসিটিভি ও সিকিউরিটি",
+            "units": [
+              {"en": "Camera", "bn": "ক্যামেরা"},
+              {"en": "Installation", "bn": "ইনস্টলেশন"}
+            ]
+          }
+        ]
+      },
+      {
+        "key": "education_training",
+        "name_en": "Education & Training",
+        "name_bn": "শিক্ষা ও প্রশিক্ষণ",
+        "subcategories": [
+          {
+            "key": "school",
+            "name_en": "School",
+            "name_bn": "স্কুল",
+            "units": [
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Class", "bn": "ক্লাস"},
+              {"en": "Teacher", "bn": "শিক্ষক"},
+              {"en": "Course", "bn": "কোর্স"}
+            ]
+          },
+          {
+            "key": "coaching_center",
+            "name_en": "Coaching Center",
+            "name_bn": "কোচিং সেন্টার",
+            "units": [
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Batch", "bn": "ব্যাচ"},
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Session", "bn": "সেশন"}
+            ]
+          },
+          {
+            "key": "language_center",
+            "name_en": "Language Center",
+            "name_bn": "ভাষা প্রশিক্ষণ কেন্দ্র",
+            "units": [
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Level", "bn": "স্তর"},
+              {"en": "Batch", "bn": "ব্যাচ"}
+            ]
+          },
+          {
+            "key": "it_training_institute",
+            "name_en": "IT Training Institute",
+            "name_bn": "আইটি ট্রেনিং ইনস্টিটিউট",
+            "units": [
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Course", "bn": "কোর্স"},
+              {"en": "Module", "bn": "মডিউল"},
+              {"en": "Batch", "bn": "ব্যাচ"}
+            ]
+          },
+          {
+            "key": "online_tutoring",
+            "name_en": "Online Tutoring",
+            "name_bn": "অনলাইন টিউটরিং",
+            "units": [
+              {"en": "Student", "bn": "ছাত্র/ছাত্রী"},
+              {"en": "Session", "bn": "সেশন"},
+              {"en": "Course", "bn": "কোর্স"}
+            ]
+          }
+        ]
+    },
+    
+      {
+        "key": "health_medical",
+        "name_en": "Health & Medical",
+        "name_bn": "স্বাস্থ্য ও চিকিৎসা",
+        "subcategories": [
+          {
+            "key": "hospital",
+            "name_en": "Hospital",
+            "name_bn": "হাসপাতাল",
+            "units": [
+              {"en": "Bed", "bn": "বেড"},
+              {"en": "Patient", "bn": "রোগী"},
+              {"en": "Doctor Visit", "bn": "ডাক্তারের ভিজিট"}
+            ]
+          },
+          {
+            "key": "clinic",
+            "name_en": "Clinic",
+            "name_bn": "ক্লিনিক",
+            "units": [
+              {"en": "Patient", "bn": "রোগী"},
+              {"en": "Doctor Visit", "bn": "ডাক্তারের ভিজিট"},
+              {"en": "Test", "bn": "টেস্ট"}
+            ]
+          },
+          {
+            "key": "diagnostic_center",
+            "name_en": "Diagnostic Center",
+            "name_bn": "ডায়াগনস্টিক সেন্টার",
+            "units": [
+              {"en": "Test", "bn": "টেস্ট"},
+              {"en": "Report", "bn": "রিপোর্ট"},
+              {"en": "Sample", "bn": "স্যাম্পল"}
+            ]
+          },
+          {
+            "key": "pharmacy",
+            "name_en": "Pharmacy",
+            "name_bn": "ফার্মেসি",
+            "units": [
+              {"en": "Strip", "bn": "স্ট্রিপ"}
+            ]
+          },
+          {
+            "key": "dental_clinic",
+            "name_en": "Dental Clinic",
+            "name_bn": "ডেন্টাল ক্লিনিক",
+            "units": [
+              {"en": "Patient", "bn": "রোগী"},
+              {"en": "Procedure", "bn": "প্রসিডিউর"},
+              {"en": "Session", "bn": "সেশন"}
+            ]
+          },
+          {
+            "key": "medical_equipment_supply",
+            "name_en": "Medical Equipment Supply",
+            "name_bn": "চিকিৎসা সরঞ্জাম সরবরাহ",
+            "units": [
+              {"en": "Unit", "bn": "ইউনিট"}
+            ]
+          }
+        ]
+    },
+
+    {
+      "key": "fashion_accessories",
+      "name_en": "Fashion & Accessories",
+      "name_bn": "ফ্যাশন ও অ্যাক্সেসরিজ",
+      "subcategories": [
+
+        {
+          "key": "boutique",
+          "name_en": "Boutique",
+          "name_bn": "বুটিক",
+          "units": [
+            {"en": "Yard", "bn": "ইয়ার্ড"}
+          ]
+        },
+        {
+          "key": "tailoring",
+          "name_en": "Tailoring",
+          "name_bn": "দর্জির কাজ",
+          "units": [
+            {"en": "Spool", "bn": "সুতা স্পুল"}
+          ]
+        },
+        {
+          "key": "beauty_parlour",
+          "name_en": "Beauty Parlour",
+          "name_bn": "বিউটি পার্লার",
+          "units": [
+            {"en": "Tube", "bn": "টিউব"},
+            {"en": "Strip", "bn": "স্ট্রিপ"}
+          ]
+        },
+        {
+          "key": "spa",
+          "name_en": "Spa",
+          "name_bn": "স্পা",
+          "units": []
+        },
+        {
+          "key": "jewelry_shop",
+          "name_en": "Jewelry Shop",
+          "name_bn": "গহনার দোকান",
+          "units": [
+            {"en": "Ana", "bn": "আনা"},
+            {"en": "Vori", "bn": "ভরি"},
+            {"en": "Carat", "bn": "ক্যারেট"}
+          ]
+        },
+        {
+          "key": "handicrafts",
+          "name_en": "Handicrafts",
+          "name_bn": "হস্তশিল্প",
+          "units": []
+        }         
+
+      ]
+    },
+    {
+        "key": "creative_media_entertainment",
+        "name_en": "Creative, Media & Entertainment",
+        "name_bn": "ক্রিয়েটিভ, মিডিয়া ও বিনোদন",
+        "subcategories": [
+          {
+            "key": "photography_studio",
+            "name_en": "Photography Studio",
+            "name_bn": "ফটোগ্রাফি স্টুডিও",
+            "units": [
+              {"en": "Battery Unit", "bn": "ব্যাটারি ইউনিট"},
+              {"en": "Light Stand Unit", "bn": "লাইট স্ট্যান্ড ইউনিট"}
+            ]
+          },
+          {
+            "key": "videography_agency",
+            "name_en": "Videography Agency",
+            "name_bn": "ভিডিওগ্রাফি এজেন্সি",
+            "units": [
+              {"en": "Battery Unit", "bn": "ব্যাটারি ইউনিট"},
+              {"en": "Lighting Unit", "bn": "লাইটিং ইউনিট"},
+              {"en": "Audio Unit", "bn": "অডিও ইউনিট"}
+            ]
+          },
+          {
+            "key": "graphics_design",
+            "name_en": "Graphics Design",
+            "name_bn": "গ্রাফিক্স ডিজাইন",
+            "units": [
+              {"en": "Sheet", "bn": "শীট"}
+            ]
+          },
+          {
+            "key": "animation_vfx",
+            "name_en": "Animation & VFX",
+            "name_bn": "অ্যানিমেশন ও ভিএফএক্স",
+            "units": [
+              {"en": "Device Unit", "bn": "ডিভাইস ইউনিট"}
+            ]
+          },
+          {
+            "key": "event_management",
+            "name_en": "Event Management",
+            "name_bn": "ইভেন্ট ম্যানেজমেন্ট",
+            "units": [
+              {"en": "Unit (Audio/Lighting)", "bn": "ইউনিট (অডিও/লাইটিং)"}
+            ]
+          },
+          {
+            "key": "youtube_business",
+            "name_en": "YouTube Business",
+            "name_bn": "ইউটিউব ব্যবসা",
+            "units": [
+              {"en": "Battery Unit", "bn": "ব্যাটারি ইউনিট"},
+              {"en": "Audio Unit", "bn": "অডিও ইউনিট"},
+              {"en": "Lighting Unit", "bn": "লাইটিং ইউনিট"}
+            ]
+          }
+              
+              
+              
+                     
+            
+        ]
+      },
+
+    {
+      "key": "pharmacy_medicine",
+      "name_en": "Pharmacy & Medicine",
+      "name_bn": "ফার্মেসি ও ঔষধ",
+      "subcategories": [
+        {
+          "key": "pharmacy",
+          "name_en": "Pharmacy",
+          "name_bn": "ফার্মেসি",
+          "units": [
+            {"en": "Piece (Tablet/Capsule)", "bn": "পিস (ট্যাবলেট/ক্যাপসুল)"},
+            {"en": "Strip", "bn": "স্ট্রিপ"},
+            {"en": "Litre (L)", "bn": "লিটার"},
+            {"en": "Tube", "bn": "টিউব"},
+            {"en": "Injection Vial", "bn": "ভায়াল"},
+            {"en": "Inhaler", "bn": "ইনহেলার"},
+            {"en": "Microgram (mcg)", "bn": "মাইক্রোগ্রাম"},
+            {"en": "International Unit (IU)", "bn": "ইন্টারন্যাশনাল ইউনিট"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gold_jewellery",
+      "name_en": "Gold & Jewellery",
+      "name_bn": "স্বর্ণ ও জুয়েলারি",
+      "subcategories": [
+        {
+          "key": "gold_shop",
+          "name_en": "Jewelry Shop",
+          "name_bn": "গহনার দোকান",
+          "units": [
+            {"en": "Rori/Ana", "bn": "রতি/আনা"},
+            {"en": "Ounce (oz)", "bn": "আউন্স"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tourism_hospitality",
+      "name_en": "Tourism & Hospitality",
+      "name_bn": "পর্যটন ও হসপিটালিটি",
+      "subcategories": [
+        {
+          "key": "hotel",
+          "name_en": "Hotel",
+          "name_bn": "হোটেল",
+          "units": [
+            {"en": "Room Night", "bn": "রুম নাইট"},
+            {"en": "Room", "bn": "রুম"},
+            {"en": "Bed", "bn": "বেড"},
+            {"en": "Guest", "bn": "অতিথি"}
+          ]
+        },
+        {
+          "key": "resort",
+          "name_en": "Resort",
+          "name_bn": "রিসোর্ট",
+          "units": [
+            {"en": "Room Night", "bn": "রুম নাইট"},
+            {"en": "Room", "bn": "রুম"},
+            {"en": "Cottage/Villa", "bn": "কটেজ/ভিলা"},
+            {"en": "Guest", "bn": "অতিথি"}
+          ]
+        },
+        {
+          "key": "guest_house",
+          "name_en": "Guest House",
+          "name_bn": "গেস্ট হাউজ",
+          "units": [
+            {"en": "Room Night", "bn": "রুম নাইট"},
+            {"en": "Room", "bn": "রুম"},
+            {"en": "Bed", "bn": "বেড"},
+            {"en": "Guest", "bn": "অতিথি"}
+          ]
+        },
+        {
+          "key": "travel_agency",
+          "name_en": "Travel Agency",
+          "name_bn": "ট্রাভেল এজেন্সি",
+          "units": [
+            {"en": "Package", "bn": "প্যাকেজ"},
+            {"en": "Ticket", "bn": "টিকিট"},
+            {"en": "Tour", "bn": "ট্যুর"},
+            {"en": "Passenger", "bn": "যাত্রী"}
+          ]
+        },
+        {
+          "key": "tour_guide_service",
+          "name_en": "Tour Guide Service",
+          "name_bn": "ট্যুর গাইড সার্ভিস",
+          "units": [
+            {"en": "Tour", "bn": "ট্যুর"},
+            {"en": "Group", "bn": "দল"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "home_community_services",
+      "name_en": "Home & Community Services",
+      "name_bn": "গৃহ ও কমিউনিটি সেবা",
+      "subcategories": [
+        {
+          "key": "laundry_service",
+          "name_en": "Laundry Service",
+          "name_bn": "লন্ড্রি সার্ভিস",
+          "units": []
+        },
+        {
+          "key": "home_cleaning",
+          "name_en": "Home Cleaning",
+          "name_bn": "বাড়ি পরিষ্কার",
+          "units": []
+        },
+        {
+          "key": "pest_control",
+          "name_en": "Pest Control",
+          "name_bn": "পেস্ট কন্ট্রোল",
+          "units": []
+        },
+        {
+          "key": "security_service",
+          "name_en": "Security Service",
+          "name_bn": "সিকিউরিটি সার্ভিস",
+          "units": [
+            {"en": "Guard", "bn": "গার্ড"},
+            {"en": "Shift", "bn": "শিফট"}
+          ]
+        },
+        {
+          "key": "water_purification",
+          "name_en": "Water Purification",
+          "name_bn": "পানিশোধন",
+          "units": []
+        },
+        {
+          "key": "waste_management",
+          "name_en": "Waste Management",
+          "name_bn": "বর্জ্য ব্যবস্থাপনা",
+          "units": [
+            {"en": "Truck Load", "bn": "ট্রাক লোড"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rural_village_business",
+      "name_en": "Rural & Village-Based Businesses",
+      "name_bn": "গ্রামভিত্তিক ব্যবসা",
+      "subcategories": [
+        {
+          "key": "rice_mill_rural",
+          "name_en": "Rice Mill",
+          "name_bn": "ধান কল",
+          "units": []
+        },
+        {
+          "key": "flour_mill_rural",
+          "name_en": "Flour Mill",
+          "name_bn": "আটা কল",
+          "units": []
+        },
+        {
+          "key": "agricultural_machine_rental",
+          "name_en": "Agricultural Machine Rental",
+          "name_bn": "কৃষি যন্ত্র ভাড়া",
+          "units": [
+            {"en": "Acre", "bn": "একর"}
+          ]
+        },
+        {
+          "key": "handloom",
+          "name_en": "Handloom",
+          "name_bn": "হাতের তাঁত",
+          "units": [
+            {"en": "Yard", "bn": "ইয়ার্ড"}
+          ]
+        },
+        {
+          "key": "bamboo_products",
+          "name_en": "Bamboo Products",
+          "name_bn": "বাঁশের পণ্য",
+          "units": []
+        },
+        {
+          "key": "village_pharmacy",
+          "name_en": "Village Pharmacy",
+          "name_bn": "গ্রামীন ফার্মেসি",
+          "units": [
+            {"en": "Strip", "bn": "স্ট্রিপ"}
+          ]
+        },
+        {
+          "key": "tailoring_shop",
+          "name_en": "Tailoring Shop",
+          "name_bn": "দর্জির দোকান",
+          "units": []
+        },
+        {
+          "key": "mobile_servicing",
+          "name_en": "Mobile Servicing",
+          "name_bn": "মোবাইল সার্ভিসিং",
+          "units": []
+        },
+        {
+          "key": "fish_feed_mill",
+          "name_en": "Fish Feed Mill",
+          "name_bn": "মাছের খাদ্য মিল",
+          "units": []
+        }
+      ]
+    },
+    {
+      "key": "energy_utility",
+      "name_en": "Energy & Utility",
+      "name_bn": "জ্বালানি ও ইউটিলিটি",
+      "subcategories": [
+        {
+          "key": "solar_energy_business",
+          "name_en": "Solar Energy Business",
+          "name_bn": "সোলার ব্যবসা",
+          "units": [
+            {"en": "Panel", "bn": "প্যানেল"},
+            {"en": "Watt (W)", "bn": "ওয়াট"},
+            {"en": "Kilowatt (kW)", "bn": "কিলোওয়াট"},
+            {"en": "System", "bn": "সিস্টেম"}
+          ]
+        },
+        {
+          "key": "generator_sales",
+          "name_en": "Generator Sales",
+          "name_bn": "জেনারেটর বিক্রয়",
+          "units": [
+            {"en": "Kilovolt-ampere (kVA)", "bn": "কেভিএ"}
+          ]
+        },
+        {
+          "key": "ev_charging_station",
+          "name_en": "EV Charging Station",
+          "name_bn": "ইভি চার্জিং স্টেশন",
+          "units": [
+            {"en": "Kilowatt-hour (kWh)", "bn": "কিলোওয়াট-ঘণ্টা"},
+            {"en": "Session", "bn": "সেশন"},
+            {"en": "Minute", "bn": "মিনিট"}
+          ]
+        },
+        {
+          "key": "water_supply_systems",
+          "name_en": "Water Supply Systems",
+          "name_bn": "পানি সরবরাহ ব্যবস্থা",
+          "units": [
+            {"en": "Connection", "bn": "সংযোগ"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "environmental_social_enterprise",
+      "name_en": "Environmental & Social Enterprise",
+      "name_bn": "পরিবেশ ও সামাজিক ব্যবসা",
+      "subcategories": [
+        {
+          "key": "recycling_plant",
+          "name_en": "Recycling Plant",
+          "name_bn": "রিসাইক্লিং প্ল্যান্ট",
+          "units": []
+        },
+        {
+          "key": "plastic_waste_management",
+          "name_en": "Plastic Waste Management",
+          "name_bn": "প্লাস্টিক বর্জ্য ব্যবস্থাপনা",
+          "units": []
+        },
+        {
+          "key": "tree_nursery",
+          "name_en": "Tree Nursery",
+          "name_bn": "নার্সারি",
+          "units": [
+            {"en": "Piece (Plant)", "bn": "পিস (চারা)"},
+            {"en": "Pot", "bn": "টব"}
+          ]
+        },
+        {
+          "key": "ngo_services",
+          "name_en": "NGO Services",
+          "name_bn": "এনজিও সেবা",
+          "units": [
+            {"en": "Beneficiary", "bn": "উপকারভোগী"},
+            {"en": "Session", "bn": "সেশন"}
+          ]
+        }
+      ]
+    },
+    {
+      "key": "emerging_future_tech",
+      "name_en": "Emerging & Future Tech",
+      "name_bn": "উদীয়মান ও ভবিষ্যৎ প্রযুক্তি",
+      "subcategories": [
+        {
+          "key": "drone_services",
+          "name_en": "Drone Services",
+          "name_bn": "ড্রোন সেবা",
+          "units": [
+            {"en": "Flight", "bn": "ফ্লাইট"}
+          ]
+        },
+        {
+          "key": "iot_solutions",
+          "name_en": "IoT Solutions",
+          "name_bn": "আইওটি সলিউশন",
+          "units": [
+            {"en": "Sensor", "bn": "সেন্সর"}
+          ]
+        },
+        {
+          "key": "ai_based_services",
+          "name_en": "AI-Based Services",
+          "name_bn": "কৃত্রিম বুদ্ধিমত্তা ভিত্তিক সেবা",
+          "units": [
+            {"en": "API Call", "bn": "এপিআই কল"}
+          ]
+        },
+        {
+          "key": "smart_home_systems",
+          "name_en": "Smart Home Systems",
+          "name_bn": "স্মার্ট হোম সিস্টেম",
+          "units": [
+            {"en": "Room", "bn": "রুম"},
+            {"en": "House", "bn": "বাড়ি"}
+          ]
+        }
+      ]
+    }
+  ],
+
+  "unit_conversions": {
+    "weight": {
+      "kg_to_g": 1000,
+      "g_to_kg": 0.001,
+      "kg_to_lb": 2.20462,
+      "lb_to_kg": 0.453592,
+      "mg_to_g": 0.001,
+      "g_to_mg": 1000,
+      "mcg_to_mg": 0.001,
+      "mg_to_mcg": 1000,
+      "kg_to_ton": 0.001,
+      "ton_to_kg": 1000,
+      "kg_to_mon": 0.025,
+      "mon_to_kg": 40
+    },
+    "volume": {
+      "litre_to_ml": 1000,
+      "ml_to_litre": 0.001,
+      "litre_to_cubic_meter": 0.001,
+      "cubic_meter_to_litre": 1000
+    },
+    "length": {
+      "meter_to_cm": 100,
+      "cm_to_meter": 0.01,
+      "meter_to_yard": 1.09361,
+      "yard_to_meter": 0.9144,
+      "meter_to_km": 0.001,
+      "km_to_meter": 1000
+    },
+    "area": {
+      "sqft_to_sqm": 0.092903,
+      "sqm_to_sqft": 10.7639,
+      "acre_to_sqm": 4046.8564224,
+      "sqm_to_acre": 0.000247105
+    },
+    "gold": {
+      "ana_to_gram": 0.739,
+      "gram_to_ana": 1.353,
+      "vori_to_gram": 11.824,
+      "gram_to_vori": 0.0846,
+      "ounce_to_gram": 31.1035,
+      "gram_to_ounce": 0.0321507,
+      "carat_to_gram": 0.2,
+      "gram_to_carat": 5
+    },
+    "pharmacy": {
+      "IU_to_mg": 0.001
+    }
+  }
+}
+

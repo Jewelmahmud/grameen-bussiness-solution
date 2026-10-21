@@ -1,0 +1,80 @@
+name: grameen-business-erp
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: dokan-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-dokan_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-dokan_password}
+      POSTGRES_DB: ${POSTGRES_DB:-dokan_db}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      # Default 6040: Windows excludes large TCP ranges ~5433–6032 (Hyper-V); pick host port outside those + not 50000–50059
+      - "${POSTGRES_PORT:-6040}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql:ro
+      # Use the main modular-monolith schema as the canonical DB definition
+      - ./schemas/sql/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-dokan_user} -d ${POSTGRES_DB:-dokan_db}"]
+      interval: 10s
+      timeout: 10s
+      retries: 15
+      start_period: 300s
+    networks:
+      - dokan-network
+
+  # Node.js Application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dokan-apis
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: 3040
+      DATABASE_URL: postgresql://${POSTGRES_USER:-dokan_user}:${POSTGRES_PASSWORD:-dokan_password}@postgres:5432/${POSTGRES_DB:-dokan_db}
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: ${POSTGRES_USER:-dokan_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-dokan_password}
+      POSTGRES_DB: ${POSTGRES_DB:-dokan_db}
+      # Auth server: STAGING | LOCAL | PROD (default STAGING; set in .env or here)
+      AUTH_SERVER: ${AUTH_SERVER:-STAGING}
+      AUTH_SERVER_URL_STAGING: ${AUTH_SERVER_URL_STAGING:-https://auth.grameenbazaar.com}
+      AUTH_SERVER_URL_PROD: ${AUTH_SERVER_URL_PROD:-https://auth.grameenbazaar.com}
+      AUTH_SERVER_URL_LOCAL: ${AUTH_SERVER_URL_LOCAL:-http://auth_server:5001}
+      AUTH_SERVER_INSECURE_SSL: ${AUTH_SERVER_INSECURE_SSL:-}
+    ports:
+      - "3040:3040"
+    volumes:
+      - ./src:/app/src:ro
+      - ./json:/app/json:ro
+      # Use host node_modules so container has multer and all deps without relying on image layers
+      - ./node_modules:/app/node_modules
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - dokan-network
+      - grameenauthserver_auth_network
+    command: npm run dev
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  dokan-network:
+    driver: bridge
+  grameenauthserver_auth_network:
+    external: true
+
